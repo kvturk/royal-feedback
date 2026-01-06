@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Pastanesi Geri Bildirim</title>
+    <style>
+        :root { --royal-gold: #c5a059; --royal-brown: #4a3728; --bg-cream: #fcfaf7; }
+        body { font-family: 'Segoe UI', sans-serif; background-color: var(--bg-cream); display: flex; justify-content: center; padding: 20px; }
+        .card { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; border: 1px solid #eee; }
+        h2 { color: var(--royal-brown); }
+        select { width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 2px solid #eee; }
+        .stars { margin: 20px 0; display: flex; justify-content: center; gap: 10px; flex-direction: row-reverse; }
+        .stars input { display: none; }
+        .stars label { font-size: 45px; color: #ddd; cursor: pointer; transition: 0.2s; }
+        .stars input:checked ~ label, .stars label:hover, .stars label:hover ~ label { color: var(--royal-gold); }
+        #negative-area { display: none; margin-top: 20px; }
+        textarea { width: 93%; padding: 10px; border-radius: 10px; border: 1px solid #ddd; margin-bottom: 10px; }
+        .btn-send { background: #25D366; color: white; border: none; padding: 12px 25px; border-radius: 10px; cursor: pointer; width: 100%; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Royal Pastanesi</h2>
+    <p>Deneyiminiz bizim için değerli.</p>
+
+    <select id="subeSecimi">
+        <option value="">Lütfen şube seçiniz...</option>
+        <option value="https://search.google.com/local/writereview?placeid=ChIJ4V0oCEtsvhQRAnMQGReBugM">Gümbet Şubesi</option>
+        <option value="https://search.google.com/local/writereview?placeid=ChIJPxuR8hFsvhQRAlowRH1AgyM">Kumbahçe Şubesi</option>
+        <option value="https://search.google.com/local/writereview?placeid=ChIJi6PDycltvhQRFif6tUc_oTA">Konacık Şubesi</option>
+        <option value="https://search.google.com/local/writereview?placeid=ChIJiYe2EfdxvhQRc3tpvswhtmc">Gündoğan Şubesi</option>
+    </select>
+
+    <div class="stars" id="star-group">
+        <input type="radio" name="star" id="star5" value="5" onclick="checkRating(5)"><label for="star5">★</label>
+        <input type="radio" name="star" id="star4" value="4" onclick="checkRating(4)"><label for="star4">★</label>
+        <input type="radio" name="star" id="star3" value="3" onclick="checkRating(3)"><label for="star3">★</label>
+        <input type="radio" name="star" id="star2" value="2" onclick="checkRating(2)"><label for="star2">★</label>
+        <input type="radio" name="star" id="star1" value="1" onclick="checkRating(1)"><label for="star1">★</label>
+    </div>
+
+    <div id="negative-area">
+        <p>Hatamızı telafi edebilmemiz için bize yazın:</p>
+        <textarea id="feedbackText" rows="4" placeholder="Şikayetinizi buraya yazın..."></textarea>
+        <button class="btn-send" onclick="sendToWhatsApp()">Yönetime WhatsApp'tan İlet</button>
+    </div>
+</div>
+
+<script>
+function checkRating(n) {
+    const subeLink = document.getElementById('subeSecimi').value;
+    if (!subeLink) {
+        alert("Lütfen önce şube seçiniz!");
+        document.querySelectorAll('input[name="star"]').forEach(el => el.checked = false);
+        return;
+    }
+    if (n >= 4) {
+        window.location.href = subeLink; // Google'a Gider
+    } else {
+        document.getElementById('negative-area').style.display = 'block'; // İçeride Kalır
+    }
+}
+
+function sendToWhatsApp() {
+    const phone = "905076209600"; // BURAYA KENDİ NUMARANIZI YAZIN
+    const text = document.getElementById('feedbackText').value;
+    const sube = document.getElementById('subeSecimi').options[document.getElementById('subeSecimi').selectedIndex].text;
+    const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(sube + " şubesi hakkında şikayet: " + text);
+    window.location.href = url;
+}
+</script>
+</body>
+</html>
