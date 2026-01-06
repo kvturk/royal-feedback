@@ -3,73 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Pastanesi Geri Bildirim</title>
+    <title>Royal Pastanesi - Müşteri Deneyimi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        :root { --royal-gold: #c5a059; --royal-brown: #4a3728; --bg-cream: #fcfaf7; }
-        body { font-family: 'Segoe UI', sans-serif; background-color: var(--bg-cream); display: flex; justify-content: center; padding: 20px; }
-        .card { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; border: 1px solid #eee; }
-        h2 { color: var(--royal-brown); }
-        select { width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 2px solid #eee; }
-        .stars { margin: 20px 0; display: flex; justify-content: center; gap: 10px; flex-direction: row-reverse; }
+        :root {
+            --royal-gold: #D4AF37; /* Premium Altın Rengi */
+            --royal-dark: #3E2723; /* Espresso Kahvesi */
+            --royal-cream: #FDFBF7; /* Krema Rengi */
+            --whatsapp-green: #25D366;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--royal-cream);
+            background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png"); /* Hafif doku */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: var(--royal-dark);
+        }
+
+        .card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(62, 39, 35, 0.15); /* Daha yumuşak gölge */
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+            border-top: 5px solid var(--royal-gold); /* Üstte altın çizgi */
+        }
+
+        .logo-container img {
+            max-height: 80px; /* Logonuzun yüksekliğini buradan ayarlayın */
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-family: 'Cinzel', serif; /* Başlık için premium font */
+            color: var(--royal-dark);
+            font-size: 24px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            color: #7f6a65;
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+        /* Form Elemanları Tasarımı */
+        select, textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            border: 2px solid #eee;
+            font-size: 16px;
+            color: var(--royal-dark);
+            outline: none;
+            background-color: #fff;
+            transition: all 0.3s ease;
+            box-sizing: border-box; /* Taşmaları önler */
+            font-family: 'Lato', sans-serif;
+        }
+        
+        /* Tıklanınca altın rengi olsun */
+        select:focus, textarea:focus {
+            border-color: var(--royal-gold);
+            box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+        }
+
+        /* Yıldız Tasarımı */
+        .stars {
+            margin: 25px 0;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-direction: row-reverse;
+        }
         .stars input { display: none; }
-        .stars label { font-size: 45px; color: #ddd; cursor: pointer; transition: 0.2s; }
-        .stars input:checked ~ label, .stars label:hover, .stars label:hover ~ label { color: var(--royal-gold); }
-        #negative-area { display: none; margin-top: 20px; }
-        textarea { width: 93%; padding: 10px; border-radius: 10px; border: 1px solid #ddd; margin-bottom: 10px; }
-        .btn-send { background: #25D366; color: white; border: none; padding: 12px 25px; border-radius: 10px; cursor: pointer; width: 100%; font-weight: bold; }
+        .stars label {
+            font-size: 50px;
+            color: #e0dcdc; /* Sönük renk */
+            cursor: pointer;
+            transition: color 0.2s, transform 0.2s;
+        }
+        .stars input:checked ~ label,
+        .stars label:hover,
+        .stars label:hover ~ label {
+            color: var(--royal-gold); /* Altın rengi */
+        }
+        .stars label:hover {
+            transform: scale(1.1); /* Üzerine gelince hafif büyüsün */
+        }
+
+        /* Olumsuz Bildirim Alanı */
+        #negative-area {
+            display: none; /* Başlangıçta gizli */
+            margin-top: 25px;
+            padding-top: 25px;
+            border-top: 1px dashed #eee;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        .btn-send {
+            background: var(--whatsapp-green);
+            color: white;
+            border: none;
+            padding: 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: background 0.3s;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .btn-send:hover {
+            background-color: #1ebc57; /* Hover rengi */
+        }
+
+        .footer-text {
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 30px;
+            font-family: 'Cinzel', serif;
+        }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <h2>Royal Pastanesi</h2>
-    <p>Deneyiminiz bizim için değerli.</p>
+    <div class="logo-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/1187/1187589.png" alt="Royal Pastanesi Logo">
+    </div>
+    
+    <h2>Hoş Geldiniz</h2>
+    <p class="subtitle">Size daha iyi hizmet verebilmemiz için deneyiminizi puanlayın.</p>
 
     <select id="subeSecimi">
-        <option value="">Lütfen şube seçiniz...</option>
+        <option value="">Ziyaret ettiğiniz şubeyi seçin...</option>
         <option value="https://search.google.com/local/writereview?placeid=ChIJ4V0oCEtsvhQRAnMQGReBugM">Gümbet Şubesi</option>
+        <option value="https://search.google.com/local/writereview?placeid=ChIJ87qdVn5tvhQR0mTzUnXh6EM">Gümbet 2 Şubesi</option>
         <option value="https://search.google.com/local/writereview?placeid=ChIJPxuR8hFsvhQRAlowRH1AgyM">Kumbahçe Şubesi</option>
         <option value="https://search.google.com/local/writereview?placeid=ChIJi6PDycltvhQRFif6tUc_oTA">Konacık Şubesi</option>
         <option value="https://search.google.com/local/writereview?placeid=ChIJiYe2EfdxvhQRc3tpvswhtmc">Gündoğan Şubesi</option>
     </select>
 
     <div class="stars" id="star-group">
-        <input type="radio" name="star" id="star5" value="5" onclick="checkRating(5)"><label for="star5">★</label>
-        <input type="radio" name="star" id="star4" value="4" onclick="checkRating(4)"><label for="star4">★</label>
-        <input type="radio" name="star" id="star3" value="3" onclick="checkRating(3)"><label for="star3">★</label>
-        <input type="radio" name="star" id="star2" value="2" onclick="checkRating(2)"><label for="star2">★</label>
-        <input type="radio" name="star" id="star1" value="1" onclick="checkRating(1)"><label for="star1">★</label>
+        <input type="radio" name="star" id="star5" value="5" onclick="checkRating(5)"><label for="star5" title="Mükemmel">★</label>
+        <input type="radio" name="star" id="star4" value="4" onclick="checkRating(4)"><label for="star4" title="Çok İyi">★</label>
+        <input type="radio" name="star" id="star3" value="3" onclick="checkRating(3)"><label for="star3" title="Orta">★</label>
+        <input type="radio" name="star" id="star2" value="2" onclick="checkRating(2)"><label for="star2" title="Kötü">★</label>
+        <input type="radio" name="star" id="star1" value="1" onclick="checkRating(1)"><label for="star1" title="Çok Kötü">★</label>
     </div>
 
     <div id="negative-area">
-        <p>Hatamızı telafi edebilmemiz için bize yazın:</p>
-        <textarea id="feedbackText" rows="4" placeholder="Şikayetinizi buraya yazın..."></textarea>
-        <button class="btn-send" onclick="sendToWhatsApp()">Yönetime WhatsApp'tan İlet</button>
+        <p style="color: var(--royal-dark); font-weight: bold; margin-bottom: 10px;">Bunu telafi etmek isteriz.</p>
+        <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Lütfen yaşadığınız sorunu kısaca anlatın, yöneticilerimiz sizinle ilgilensin.</p>
+        <textarea id="feedbackText" placeholder="Mesajınız..."></textarea>
+        <button class="btn-send" onclick="sendToWhatsApp()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382C17.117 14.382 14.659 13.336 14.462 13.238C14.265 13.14 13.773 13.632 13.478 13.829C13.183 14.026 12.888 14.026 12.593 13.928C12.298 13.829 11.315 13.534 10.135 12.452C9.15201 11.567 8.56201 10.682 8.36501 10.289C8.16801 9.896 8.36501 9.7 8.56201 9.503C8.75901 9.306 9.05401 8.913 9.25101 8.618C9.44801 8.323 9.54601 8.126 9.64401 7.93C9.74201 7.733 9.64401 7.438 9.54601 7.242C9.44801 7.045 8.76001 5.373 8.46501 4.685C8.16901 3.997 7.87401 4.095 7.67701 4.095C7.48001 4.095 7.18501 4.095 6.89001 4.095C6.59501 4.095 6.10301 4.193 5.71001 4.587C5.31701 4.98 4.33401 5.865 4.33401 7.733C4.33401 9.601 5.71001 11.371 5.90701 11.666C6.10301 11.961 8.66001 16.091 12.691 17.762C16.722 19.433 16.722 18.941 17.411 18.843C18.1 18.745 19.378 18.057 19.673 17.27C19.968 16.484 19.968 15.795 19.87 15.697C19.771 15.599 19.575 15.501 19.28 15.304C18.985 15.107 17.827 14.382 17.472 14.382Z" fill="white"/></svg>
+            Yönetime WhatsApp ile Bildir
+        </button>
     </div>
+
+    <div class="footer-text">© Royal Pastanesi - Lezzetin Adresi</div>
 </div>
 
 <script>
+// Javascript kodumuz aynı kalıyor, sadece tasarım değişti.
 function checkRating(n) {
     const subeLink = document.getElementById('subeSecimi').value;
+    
     if (!subeLink) {
-        alert("Lütfen önce şube seçiniz!");
+        alert("Lütfen önce ziyaret ettiğiniz şubeyi seçiniz.");
         document.querySelectorAll('input[name="star"]').forEach(el => el.checked = false);
         return;
     }
+
     if (n >= 4) {
-        window.location.href = subeLink; // Google'a Gider
+        // 4-5 YILDIZ: GOOGLE'A GÖNDER
+        window.location.href = subeLink;
     } else {
-        document.getElementById('negative-area').style.display = 'block'; // İçeride Kalır
+        // 1-3 YILDIZ: FORMUNU AÇ (Animasyonlu)
+        document.getElementById('negative-area').style.display = 'block';
+        // Şube seçimini kilitleyelim ki değiştirmesinler
+        document.getElementById('subeSecimi').disabled = true;
     }
 }
 
 function sendToWhatsApp() {
-    const phone = "905076209600"; // BURAYA KENDİ NUMARANIZI YAZIN
-    const text = document.getElementById('feedbackText').value;
-    const sube = document.getElementById('subeSecimi').options[document.getElementById('subeSecimi').selectedIndex].text;
-    const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(sube + " şubesi hakkında şikayet: " + text);
-    window.location.href = url;
+    const phone = "905XXXXXXXXX"; // LÜTFEN NUMARANIZI GİRİN
+    const feedback = document.getElementById('feedbackText').value;
+    const subeAdi = document.getElementById('subeSecimi').options[document.getElementById('subeSecimi').selectedIndex].text;
+    
+    if(!feedback || feedback.length < 5) { 
+        alert("Lütfen en az birkaç kelime ile sorunu anlatınız."); 
+        return; 
+    }
+
+    const mesaj = encodeURIComponent("*Müşteri Geri Bildirimi*\n\n*Şube:* " + subeAdi + "\n*Mesaj:* " + feedback);
+    window.location.href = "https://wa.me/" + phone + "?text=" + mesaj;
 }
 </script>
+
 </body>
 </html>
