@@ -1,1 +1,53 @@
-const SERP_API_KEY = process.env.SERP_API_KEY;const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;const CHAT_ID = process.env.CHAT_ID;// Subelerin Google üzerindeki spesifik sorgulariconst SUBELER = [    { ad: "Konacik Subesi", query: "Royal Pastanesi Konacik Sube" },    { ad: "Gümbet Subesi", query: "Royal Pastanesi GÜMBET Sube" },    { ad: "Kumbahçe Subesi", query: "Royal Pastanesi KUMBAHÇE Sube" },    { ad: "Gümbet 2 Subesi", query: "Royal Pastanesi Gümbet 2 Sube" }];async function checkReviews() {    for (const sube of SUBELER) {        const url = `https://serpapi.com/search.json?engine=google_maps_reviews&q=${encodeURIComponent(sube.query)}&sort_by=newestFirst&api_key=${SERP_API_KEY}`;        try {            const response = await fetch(url);            const data = await response.json();            const reviews = data.reviews || [];            // Son 24 saatteki (hour, minute, saat, saniye içeren) yorumlari filtrele            const newReviews = reviews.filter(r =>                 r.date.includes('hour') || r.date.includes('minute') ||                 r.date.includes('saat') || r.date.includes('saniye')            );            for (const review of newReviews) {                const stars = "?".repeat(review.rating);                const message = `?? *SUBE: ${sube.ad.toUpperCase()}*\n` +                              `?? *Yeni Google Yorumu!*\n\n` +                              `?? *${review.user.name}*\n` +                              `${stars} (${review.rating}/5)\n\n` +                              `?? "${review.snippet || 'Mesaj birakilmadi.'}"\n\n` +                              `?? [Haritalarda Görüntüle](${review.link})`;                await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {                    method: 'POST',                    headers: { 'Content-Type': 'application/json' },                    body: JSON.stringify({                        chat_id: CHAT_ID,                        text: message,                        parse_mode: 'Markdown'                    })                });                console.log(`${sube.ad} için yeni yorum gönderildi.`);            }        } catch (error) {            console.error(`${sube.ad} taranirken hata olustu:`, error.message);        }    }}checkReviews();
+const SERP_API_KEY = process.env.SERP_API_KEY;
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
+const CHAT_ID = process.env.CHAT_ID;
+
+const SUBELER = [
+    { ad: "KonacÄ±k Åubesi", query: "Royal Pastanesi KonacÄ±k Åube" }
+    // Test iÃ§in tek ÅŸube yeterli, istersen diÄŸerlerini de ekleyebilirsin
+];
+
+async function testRun() {
+    console.log("ğŸš€ Test baÅŸlatÄ±ldÄ±, baÄŸlantÄ±lar kontrol ediliyor...");
+
+    for (const sube of SUBELER) {
+        const url = `https://serpapi.com/search.json?engine=google_maps_reviews&q=${encodeURIComponent(sube.query)}&sort_by=newestFirst&api_key=${SERP_API_KEY}`;
+
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            
+            // Filtreleme yapmadan en son gelen ilk 3 yorumu alÄ±yoruz
+            const lastReviews = (data.reviews || []).slice(0, 3); 
+
+            if (lastReviews.length === 0) {
+                console.log(`${sube.ad} iÃ§in yorum bulunamadÄ±.`);
+                continue;
+            }
+
+            for (const review of lastReviews) {
+                const stars = "â­".repeat(review.rating);
+                const message = `ğŸ§ª *TEST MESAJI - ${sube.ad.toUpperCase()}*\n\n` +
+                              `ğŸ‘¤ *${review.user.name}*\n` +
+                              `${stars} (${review.rating}/5)\n\n` +
+                              `ğŸ’¬ "${review.snippet || 'Mesaj yok.'}"\n\n` +
+                              `ğŸ“… Tarih: ${review.date}`;
+
+                await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        chat_id: CHAT_ID,
+                        text: message,
+                        parse_mode: 'Markdown'
+                    })
+                });
+            }
+            console.log(`âœ… ${sube.ad} iÃ§in son yorumlar Telegram'a gÃ¶nderildi.`);
+        } catch (error) {
+            console.error("Hata:", error.message);
+        }
+    }
+}
+
+testRun();
