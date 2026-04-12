@@ -5,17 +5,21 @@ on:
     - cron: '0 18 * * *' # Her akşam 21:00'de (TSİ) otomatik çalışır
   workflow_dispatch: # Manuel çalıştırma butonunu aktif tutar
 
+# İŞTE ÇÖZÜM BURADA: Tüm sistemin Node 24 altyapısını kullanmasını zorunlu kılıyoruz
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+
 jobs:
   check-reviews:
     runs-on: ubuntu-latest
     steps:
       - name: Depoyu Kontrol Et
-        uses: actions/checkout@v4 # v3'ten v4'e güncellendi
+        uses: actions/checkout@v4
 
       - name: Node.js Kurulumu
-        uses: actions/setup-node@v4 # v3'ten v4'e güncellendi
+        uses: actions/setup-node@v4
         with:
-          node-version: '22' # En stabil ve güncel sürüm
+          node-version: '22'
 
       - name: Yorumları Kontrol Et ve Telegram'a Gönder
         run: node yorum.js
@@ -23,4 +27,3 @@ jobs:
           SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Gelecek güncellemeler için uyumluluk modu
