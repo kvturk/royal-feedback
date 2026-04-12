@@ -1,0 +1,22 @@
+name: Google Yorum Bildirici
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # Her akşam 21:00'de (TSİ) çalışır
+  workflow_dispatch: # Manuel çalıştırma butonu sağlar
+
+jobs:
+  check-reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Node.js Kurulumu
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Yorumları Kontrol Et
+        run: node yorum.js
+        env:
+          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
