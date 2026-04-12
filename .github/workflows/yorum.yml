@@ -2,21 +2,25 @@ name: Google Yorum Bildirici
 
 on:
   schedule:
-    - cron: '0 18 * * *' # Her akşam 21:00'de (TSİ) çalışır
-  workflow_dispatch: # Manuel çalıştırma butonu sağlar
+    - cron: '0 18 * * *' # Her akşam 21:00'de (TSİ) otomatik çalışır
+  workflow_dispatch: # Manuel çalıştırma butonunu aktif tutar
 
 jobs:
   check-reviews:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Depoyu Kontrol Et
+        uses: actions/checkout@v4 # v3'ten v4'e güncellendi
+
       - name: Node.js Kurulumu
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 # v3'ten v4'e güncellendi
         with:
-          node-version: '18'
-      - name: Yorumları Kontrol Et
+          node-version: '22' # En stabil ve güncel sürüm
+
+      - name: Yorumları Kontrol Et ve Telegram'a Gönder
         run: node yorum.js
         env:
           SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Gelecek güncellemeler için uyumluluk modu
