@@ -31,10 +31,10 @@
             </div>
 
             <div class="flex gap-2">
-                <select id="subeFilter" class="border border-gray-200 rounded-xl px-4 py-2 outline-none focus:ring-2 focus:ring-purple-200 transition-all text-sm text-gray-600">
+                <select id="subeFilter" class="border border-gray-200 rounded-xl px-4 py-2 outline-none focus:ring-2 focus:ring-purple-200 transition-all text-sm font-semibold text-gray-700 bg-white shadow-sm">
                     <option value="Tümü">Tüm Şubeler</option>
                 </select>
-                <button onclick="fetchReviews()" class="flex items-center gap-2 border border-gray-200 rounded-xl px-4 py-2 hover:bg-gray-50 transition-all text-sm text-gray-600">
+                <button onclick="fetchReviews()" class="flex items-center gap-2 border border-gray-200 rounded-xl px-4 py-2 hover:bg-gray-50 transition-all text-sm text-gray-600 bg-white shadow-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                     </svg>
@@ -44,22 +44,22 @@
         </div>
 
         <div class="bg-white rounded-3xl overflow-hidden table-shadow overflow-x-auto">
-            <table class="w-full text-left">
-                <thead class="bg-gray-50 border-b border-gray-100 text-purple-400 text-sm font-semibold uppercase tracking-wider">
+            <table class="w-full text-left border-collapse">
+                <thead class="bg-gray-50 border-b border-gray-100 text-purple-400 text-xs font-semibold uppercase tracking-widest">
                     <tr>
                         <th class="px-6 py-5">İşlem Tarihi</th>
-                        <th class="px-6 py-5">Şube / Personel</th>
-                        <th class="px-6 py-5">Puan / Yıldız</th>
-                        <th class="px-6 py-5">Yorum Detayı</th>
-                        <th class="px-6 py-5 text-center">Durum Sonucu</th>
-                        <th class="px-6 py-5 text-right">Harita</th>
+                        <th class="px-6 py-5">Şube / Müşteri</th>
+                        <th class="px-6 py-5">Puan</th>
+                        <th class="px-6 py-5">Müşteri Notu</th>
+                        <th class="px-6 py-5 text-center">Durum</th>
+                        <th class="px-6 py-5 text-right">Aksiyon</th>
                     </tr>
                 </thead>
                 <tbody id="reviewTable" class="divide-y divide-gray-50 text-gray-600 text-sm">
                     </tbody>
             </table>
         </div>
-        <p class="mt-4 text-center text-gray-400 text-xs">Royal Pastanesi Internal Feedback System v1.0</p>
+        <p class="mt-4 text-center text-gray-400 text-xs">Royal Pastanesi Internal Feedback System v1.1</p>
     </div>
 
     <script>
@@ -67,17 +67,42 @@
             try {
                 const response = await fetch('yorumlar.json?t=' + new Date().getTime());
                 const reviews = await response.json();
-                renderTable(reviews);
+                
+                // Önce filtreyi (yıldızlarla birlikte) güncelle
                 updateFilters(reviews);
+                // Sonra tabloyu çiz
+                renderTable(reviews);
             } catch (err) {
                 console.error("Veri yüklenemedi:", err);
             }
         }
 
+        // Şubelerin Ortalama Puanını Hesaplayıp Combobox'a Yazar
+        function updateFilters(data) {
+            const filter = document.getElementById('subeFilter');
+            const currentSelected = filter.value; // Seçili olanı kaybetmeyelim
+            
+            const uniqueSubeler = [...new Set(data.map(item => item.sube_adi))];
+            
+            filter.innerHTML = '<option value="Tümü">Tüm Şubeler</option>';
+
+            uniqueSubeler.forEach(sube => {
+                const subeYorumlari = data.filter(r => r.sube_adi === sube);
+                const ortalama = (subeYorumlari.reduce((sum, r) => sum + r.rating, 0) / subeYorumlari.length).toFixed(1);
+                
+                const option = document.createElement('option');
+                option.value = sube;
+                // Örnek Görünüm: "Konacık Şubesi ⭐ 4.7"
+                option.text = `${sube} ⭐ ${ortalama}`;
+                filter.appendChild(option);
+            });
+
+            filter.value = currentSelected;
+        }
+
         function renderTable(data) {
             const tableBody = document.getElementById('reviewTable');
             const filterValue = document.getElementById('subeFilter').value;
-            
             tableBody.innerHTML = '';
 
             data.forEach(item => {
@@ -86,50 +111,35 @@
                 const date = new Date(item.iso_date).toLocaleString('tr-TR');
                 const badgeClass = item.rating >= 4 ? 'status-taze' : 'status-kritik';
                 const badgeText = item.rating >= 4 ? 'MEMNUNİYET' : 'KRİTİK';
-                
                 let stars = '⭐'.repeat(item.rating);
 
                 tableBody.innerHTML += `
                     <tr class="hover:bg-purple-50/30 transition-colors">
-                        <td class="px-6 py-5 whitespace-nowrap font-medium">🕒 ${date}</td>
+                        <td class="px-6 py-5 whitespace-nowrap text-gray-400 text-xs">🕒 ${date}</td>
                         <td class="px-6 py-5">
                             <div class="font-bold text-gray-800">${item.sube_adi}</div>
-                            <div class="text-xs text-gray-400 font-light">👤 ${item.user.name}</div>
+                            <div class="text-[11px] text-gray-400">👤 ${item.user.name}</div>
                         </td>
                         <td class="px-6 py-5">
-                            <div class="text-purple-600 font-bold text-lg">${stars}</div>
-                            <div class="text-xs text-purple-300 font-light italic">${item.rating}/5 Puan</div>
+                            <div class="text-yellow-500 font-bold">${stars}</div>
+                            <div class="text-[10px] text-gray-300">${item.rating} / 5</div>
                         </td>
-                        <td class="px-6 py-5 max-w-xs overflow-hidden text-ellipsis italic">
-                            "${item.snippet || 'Sadece puan verilmiş.'}"
+                        <td class="px-6 py-5 max-w-xs italic text-gray-500 line-clamp-2">
+                            "${item.snippet || 'Mesaj bırakılmadı.'}"
                         </td>
                         <td class="px-6 py-5 text-center">
-                            <span class="${badgeClass}">${badgeText}</span>
+                            <span class="${badgeClass} text-[10px] tracking-tighter">${badgeText}</span>
                         </td>
-                        <td class="px-6 py-5 text-right font-mono text-red-500 font-bold underline">
-                            <a href="${item.link}" target="_blank" class="hover:text-red-700 transition-colors">YORUMU AÇ</a>
+                        <td class="px-6 py-5 text-right font-bold">
+                            <a href="${item.link}" target="_blank" class="text-red-500 hover:text-red-700 text-xs underline">HARİTADA GÖR</a>
                         </td>
                     </tr>
                 `;
             });
         }
 
-        function updateFilters(data) {
-            const filter = document.getElementById('subeFilter');
-            const uniqueSubeler = [...new Set(data.map(item => item.sube_adi))];
-            
-            if (filter.options.length > 1) return; // Zaten doluysa tekrar ekleme
-
-            uniqueSubeler.forEach(sube => {
-                const option = document.createElement('option');
-                option.value = sube;
-                option.text = sube;
-                filter.appendChild(option);
-            });
-        }
-
         document.getElementById('subeFilter').addEventListener('change', fetchReviews);
-        fetchReviews(); // İlk açılışta veriyi çek
+        fetchReviews();
     </script>
 </body>
 </html>
