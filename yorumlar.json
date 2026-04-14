@@ -1,1 +1,1227 @@
-[]
+[
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKYVRIcHVUbXRrVEMxRlEwZzFiRTh0YkdkaWJsRRAB!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CAIQACodChtycF9oOkJaTHpuTmtkTC1FQ0g1bE8tbGdiblE%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "a month ago",
+    "iso_date": "2026-02-17T09:47:47Z",
+    "iso_date_of_last_edit": "2026-02-17T09:47:47Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKYVRIcHVUbXRrVEMxRlEwZzFiRTh0YkdkaWJsRRAB",
+    "user": {
+      "name": "Ercan çelik",
+      "link": "https://www.google.com/maps/contrib/118083435755739265305?hl=en-US",
+      "contributor_id": "118083435755739265305",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUT9t2wNun9RoVysqQ1kJvPcDlEXkNi8wehqJP9HhTWqsp0EQK4=s120-c-rp-mo-ba12-br100",
+      "local_guide": true,
+      "reviews": 26,
+      "photos": 6
+    },
+    "snippet": "Hayatımda yediğim en iğrenç zeytinli kumru ay çöreği  ve haşhaşlı çörek yahu ustanız da mı yok ay çöreğinin hamuru yoğrulmamış kakao döküldü az bi özen gösterseniz yazık güzelim işletmeye",
+    "extracted_snippet": {
+      "original": "Hayatımda yediğim en iğrenç zeytinli kumru ay çöreği  ve haşhaşlı çörek yahu ustanız da mı yok ay çöreğinin hamuru yoğrulmamış kakao döküldü az bi özen gösterseniz yazık güzelim işletmeye",
+      "translated": "The most disgusting olive sandwich, crescent roll, and poppy seed roll I've ever eaten in my life. Don't you even have a skilled chef? The crescent roll dough wasn't kneaded properly, and cocoa powder was poured on it. Couldn't you show a little more care? It's a shame for such a nice business."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2trMU0zaFNWR2N0VjJndExWbFhNSFYwYUd4aWFGRRAB!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CAIQACodChtycF9oOkk1M3hSVGctV2gtLVlXMHV0aGxiaFE%7C%7C?hl=en-US",
+    "rating": 3,
+    "date": "3 months ago",
+    "iso_date": "2026-01-01T23:40:40Z",
+    "iso_date_of_last_edit": "2026-01-01T23:40:40Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trMU0zaFNWR2N0VjJndExWbFhNSFYwYUd4aWFGRRAB",
+    "user": {
+      "name": "Efe Ayvalık",
+      "link": "https://www.google.com/maps/contrib/100915568568067082570?hl=en-US",
+      "contributor_id": "100915568568067082570",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVaCNLhWTETHaz244bNTWsMHCJx2nz5_F4LUWHE2wQIkPOrIOc=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 11,
+      "photos": 0
+    },
+    "snippet": "Sipariş verdim dökülmüş geldi",
+    "extracted_snippet": {
+      "original": "Sipariş verdim dökülmüş geldi",
+      "translated": "I placed an order and it arrived spilled."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 3,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaS2RtbGZVRUp6UVRWUFMwMVNhblJpTTBoUFJsRRAB!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CAIQACodChtycF9oOlZKdmlfUEJzQTVPS01SanRiM0hPRlE%7C%7C?hl=en-US",
+    "rating": 2,
+    "date": "6 months ago",
+    "iso_date": "2025-09-15T09:21:45Z",
+    "iso_date_of_last_edit": "2025-09-15T09:21:45Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaS2RtbGZVRUp6UVRWUFMwMVNhblJpTTBoUFJsRRAB",
+    "user": {
+      "name": "Gökhan Elitas",
+      "link": "https://www.google.com/maps/contrib/116478495233989714680?hl=en-US",
+      "contributor_id": "116478495233989714680",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX6CRBxyzIkoXAEt2gsc9VEUPnUu_Oucixm-JThTaPmyXjhrVC1=s120-c-rp-mo-ba12-br100",
+      "local_guide": true,
+      "reviews": 18,
+      "photos": 3
+    },
+    "snippet": "Ürünleri güzel ve temiz. Çeşitleri çok.\nSadece Royal kahvaltıda yumurta 2 adet yazmasına rağmen  1 tane yumurta geliyor. Çay 2 tane olduğu söylüyorlar. Ama Virgül  nereye koyacaklarını bilmiyorlar. Ekstra olarak söyleyebiliyorsunuz neredeyse kahvaltı fiyatının yarısına. Fiş  kontrol etmenizde fayda var ekstradan birşey eklemişlerdi. Genel anlamda ürûnleri iyi fiyatları biraz pahalı.",
+    "extracted_snippet": {
+      "original": "Ürünleri güzel ve temiz. Çeşitleri çok.\nSadece Royal kahvaltıda yumurta 2 adet yazmasına rağmen  1 tane yumurta geliyor. Çay 2 tane olduğu söylüyorlar. Ama Virgül  nereye koyacaklarını bilmiyorlar. Ekstra olarak söyleyebiliyorsunuz neredeyse kahvaltı fiyatının yarısına. Fiş  kontrol etmenizde fayda var ekstradan birşey eklemişlerdi. Genel anlamda ürûnleri iyi fiyatları biraz pahalı.",
+      "translated": "The products are nice and clean. They have a wide variety.\nThe only issue is that the Royal breakfast says there are 2 eggs, but only 1 comes. They say there are 2 teacups, but they don't know where to put the comma. You can order them extra for almost half the breakfast price. It's worth checking the receipt, they added something extra. Overall, the products are good, but the prices are a bit expensive."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 4,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNfcG9UeUpBEAE!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CIHM0ogKEICAgIC_poTyJA%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a year ago",
+    "iso_date": "2025-01-15T17:33:53Z",
+    "iso_date_of_last_edit": "2025-01-15T17:33:53Z",
+    "source": "Google",
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNfcG9UeUpBEAE",
+    "user": {
+      "name": "Serhat Sevinc",
+      "link": "https://www.google.com/maps/contrib/115881387312567393714?hl=en-US",
+      "contributor_id": "115881387312567393714",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKtoBm7pAo526ClLHRjlmQvaB5Spsm9WxpajooSpQlSaHUwCQ=s120-c-rp-mo-ba12-br100",
+      "local_guide": true,
+      "reviews": 59,
+      "photos": 2
+    },
+    "snippet": "Yıllardır pastayı buradan alıyoruz. Gayet memnunuz. Teşekkürler",
+    "extracted_snippet": {
+      "original": "Yıllardır pastayı buradan alıyoruz. Gayet memnunuz. Teşekkürler",
+      "translated": "We've been buying our cakes from here for years. We're very satisfied. Thank you."
+    },
+    "details": {
+      "order_type": "Take out",
+      "meal_type": "Other",
+      "food": 5,
+      "service": 5,
+      "atmosphere": 5
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 5,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNkc3BTTmZBEAE!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CIHM0ogKEICAgICdspSNfA%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "2 years ago",
+    "iso_date": "2024-02-14T06:50:07Z",
+    "iso_date_of_last_edit": "2024-02-14T06:50:07Z",
+    "source": "Google",
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNkc3BTTmZBEAE",
+    "user": {
+      "name": "Yasin ATAY",
+      "link": "https://www.google.com/maps/contrib/100852883737179971741?hl=en-US",
+      "contributor_id": "100852883737179971741",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU7Xe-guEMlOMCp0wWZb7TFB49t_U_b9ysJ3fAjRwkV_CBMbRJk5Q=s120-c-rp-mo-ba12-br100",
+      "local_guide": true,
+      "reviews": 9,
+      "photos": 43
+    },
+    "details": {
+      "food": 1,
+      "service": 2,
+      "atmosphere": 2
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 6,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURscHFLZHF3RRAB!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CIHM0ogKEICAgIDlpqKdqwE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "2 years ago",
+    "iso_date": "2023-12-01T18:10:23Z",
+    "iso_date_of_last_edit": "2023-12-01T18:10:23Z",
+    "source": "Google",
+    "review_id": "ChdDSUhNMG9nS0VJQ0FnSURscHFLZHF3RRAB",
+    "user": {
+      "name": "murat cetinkaya",
+      "link": "https://www.google.com/maps/contrib/118208165338177342664?hl=en-US",
+      "contributor_id": "118208165338177342664",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIQWKNCOKZ_iNifW9_pNa1L6kYi6QQnilnW2OsQt4eJBXFVJw=s120-c-rp-mo-ba12-br100",
+      "local_guide": true,
+      "reviews": 25,
+      "photos": 5
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 7,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURGMjY2NkRnEAE!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CIHM0ogKEICAgIDF2666Dg%7C%7C?hl=en-US",
+    "rating": 3,
+    "date": "2 years ago",
+    "iso_date": "2023-11-10T13:01:20Z",
+    "iso_date_of_last_edit": "2023-11-10T13:01:20Z",
+    "source": "Google",
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnSURGMjY2NkRnEAE",
+    "user": {
+      "name": "Mustafa Sezgin",
+      "link": "https://www.google.com/maps/contrib/107968293836330220023?hl=en-US",
+      "contributor_id": "107968293836330220023",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVJiqNYfIo877PXGr5C411ynSQTCIZ_DMvDfb2EMmc7qEe7Jgy2=s120-c-rp-mo-ba12-br100",
+      "local_guide": true,
+      "reviews": 19,
+      "photos": 0
+    },
+    "snippet": "Bu sabah bir açma aldım hayatımda yediğim en kötü açmaydı",
+    "extracted_snippet": {
+      "original": "Bu sabah bir açma aldım hayatımda yediğim en kötü açmaydı",
+      "translated": "I bought a pastry this morning, and it was the worst pastry I've ever eaten in my life."
+    },
+    "details": {
+      "food": 3,
+      "service": 3,
+      "atmosphere": 4
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Royal Fırın Pasta (Bitez)",
+    "position": 8,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURaX1puMkxBEAE!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CIHM0ogKEICAgIDZ_Zn2LA%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "2 years ago",
+    "iso_date": "2023-10-07T08:39:30Z",
+    "iso_date_of_last_edit": "2023-10-07T08:39:30Z",
+    "source": "Google",
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnSURaX1puMkxBEAE",
+    "user": {
+      "name": "AYNUR KARAÜZÜM",
+      "link": "https://www.google.com/maps/contrib/102918046153724697126?hl=en-US",
+      "contributor_id": "102918046153724697126",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW0o4RnJ69AsgWrraKufgnXEvaxvF87U7-8qG3d878ahbhLDeLlvg=s120-c-rp-mo-ba12-br100",
+      "local_guide": true,
+      "reviews": 11,
+      "photos": 29
+    },
+    "snippet": "Taze çayı ,kaşarlı tost ,sıcak insanlar ve servisi",
+    "extracted_snippet": {
+      "original": "Taze çayı ,kaşarlı tost ,sıcak insanlar ve servisi",
+      "translated": "Fresh tea, cheese toast, warm people and service."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.112Z"
+  },
+  {
+    "sube_adi": "Gümbet 2 Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxcFNXNVJWa3hJVjFkWk4ybHhhRFJ0YTFabWJsRRAB!2m1!1s0x0:0x43e8e17552f364d2!3m1!1s2@1:CAIQACodChtycF9oOk1pSW5RVkxIV1dZN2lxaDRta1ZmblE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a month ago",
+    "iso_date": "2026-03-10T18:23:43Z",
+    "iso_date_of_last_edit": "2026-03-10T18:23:43Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxcFNXNVJWa3hJVjFkWk4ybHhhRFJ0YTFabWJsRRAB",
+    "user": {
+      "name": "KENDİNE YOLCULUK &",
+      "link": "https://www.google.com/maps/contrib/104431843141722628074?hl=en-US",
+      "contributor_id": "104431843141722628074",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX2wfoLPwxXEqjUo-IhvyrMQqEBpn8_ssSSbt2UQCU_AR9-ecI=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 5,
+      "photos": 0
+    },
+    "snippet": "4 Er Medya pastası taze ve lezzetliydi. Üretiminizin kalitesi övgüye değer. Çok teşekkürler",
+    "extracted_snippet": {
+      "original": "4 Er Medya pastası taze ve lezzetliydi. Üretiminizin kalitesi övgüye değer. Çok teşekkürler",
+      "translated": "The 4 Er Medya cake was fresh and delicious. The quality of your production is commendable. Thank you very much."
+    },
+    "likes": 0,
+    "response": {
+      "date": "a month ago",
+      "iso_date": "2026-03-11T08:20:44Z",
+      "iso_date_of_last_edit": "2026-03-11T08:20:44Z",
+      "snippet": "Teşekkür ederiz  ,  her zaman bekleriz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz  ,  her zaman bekleriz .",
+        "translated": "Thank you, you're always welcome."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.092Z"
+  },
+  {
+    "sube_adi": "Gümbet 2 Şubesi",
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21sbVptNWllazh3Tm5CM00xTm1jMlEyWmxWblIxRRAB!2m1!1s0x0:0x43e8e17552f364d2!3m1!1s2@1:CAIQACodChtycF9oOmlmZm5iek8wNnB3M1Nmc2Q2ZlVnR1E%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "4 months ago",
+    "iso_date": "2025-11-22T16:19:09Z",
+    "iso_date_of_last_edit": "2025-11-22T16:19:09Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sbVptNWllazh3Tm5CM00xTm1jMlEyWmxWblIxRRAB",
+    "user": {
+      "name": "Fenerbahce Skriniar",
+      "link": "https://www.google.com/maps/contrib/114871648177694704097?hl=en-US",
+      "contributor_id": "114871648177694704097",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXkOOTerrCA8e1S41O5Vii6roFVtG5-p64fAOO2uBnH13KCpmuE=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 4,
+      "photos": 2
+    },
+    "snippet": "0 yıldız olsa 0 vericem. İstediğim pastayı yapabiliceklerini söylediler fakat pastayı teslim aldığımda şok oldum. Tarif ettiğim ve görselini ilettiğim pasta ile arasında bir uçurum vardı. Pastanın her ayrıntısını şeker hamuru ile donatmışlar. Şekli Yuvarlak olsun dedim  ama kalp yapmışlar. Pasta tasarımcımız işi bıraktı pastayı ekmek ustamız yaptı deseler inanırım.Arkadaşımız için hazırladğımız doğum günü partisi bir kabusa dönüştü resmen!",
+    "extracted_snippet": {
+      "original": "0 yıldız olsa 0 vericem. İstediğim pastayı yapabiliceklerini söylediler fakat pastayı teslim aldığımda şok oldum. Tarif ettiğim ve görselini ilettiğim pasta ile arasında bir uçurum vardı. Pastanın her ayrıntısını şeker hamuru ile donatmışlar. Şekli Yuvarlak olsun dedim  ama kalp yapmışlar. Pasta tasarımcımız işi bıraktı pastayı ekmek ustamız yaptı deseler inanırım.Arkadaşımız için hazırladğımız doğum günü partisi bir kabusa dönüştü resmen!",
+      "translated": "If there were 0 stars, I'd give it 0. They said they could make the cake I wanted, but I was shocked when I received it. There was a huge gap between the cake I described and the one I sent a picture of. They'd decorated every detail of the cake with fondant. I wanted it to be round, but they made it a heart. I'd believe them if they said our cake designer quit, and our baker made the cake. The birthday party we were planning for our friend turned into a nightmare!"
+    },
+    "likes": 0,
+    "response": {
+      "date": "4 months ago",
+      "iso_date": "2025-11-26T08:58:49Z",
+      "iso_date_of_last_edit": "2025-11-26T08:58:49Z",
+      "snippet": "0  Yıldız mesajı  alınıp , gerekli düzenlemeler yapıldı . Teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "0  Yıldız mesajı  alınıp , gerekli düzenlemeler yapıldı . Teşekkür ederiz .",
+        "translated": "The 0 Star message was received and the necessary arrangements were made. Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.092Z"
+  },
+  {
+    "sube_adi": "Gümbet 2 Şubesi",
+    "position": 3,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21GcFJtWmhNMU5DVUZoVk1GTnpRalV5UkdOcmFsRRAB!2m1!1s0x0:0x43e8e17552f364d2!3m1!1s2@1:CAIQACodChtycF9oOmFpRmZhM1NCUFhVMFNzQjUyRGNralE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "4 months ago",
+    "iso_date": "2025-11-15T20:11:44Z",
+    "iso_date_of_last_edit": "2025-11-15T20:11:44Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GcFJtWmhNMU5DVUZoVk1GTnpRalV5UkdOcmFsRRAB",
+    "user": {
+      "name": "Serdar Koşmaz",
+      "link": "https://www.google.com/maps/contrib/106417616930217955514?hl=en-US",
+      "contributor_id": "106417616930217955514",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVbU6IS9es5zRpbBmcdJ1aMQVnGpQ7rNVfdUSYNK_KZUDxEhb1p=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 11,
+      "photos": 3
+    },
+    "snippet": "Royal’in şirin bir butik şubesi mutlaka uğrayın",
+    "extracted_snippet": {
+      "original": "Royal’in şirin bir butik şubesi mutlaka uğrayın",
+      "translated": "A cute boutique branch of Royal, be sure to visit"
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.092Z"
+  },
+  {
+    "sube_adi": "Gümbet 2 Şubesi",
+    "position": 4,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pORGVYUlZVV2R0ZEhCdkxVbEtlR3hyTldWd2JrRRAB!2m1!1s0x0:0x43e8e17552f364d2!3m1!1s2@1:CAIQACodChtycF9oOjNDeXRVUWdtdHBvLUlKeGxrNWVwbkE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "5 months ago",
+    "iso_date": "2025-11-05T10:43:37Z",
+    "iso_date_of_last_edit": "2025-11-05T11:32:32Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pORGVYUlZVV2R0ZEhCdkxVbEtlR3hyTldWd2JrRRAB",
+    "user": {
+      "name": "Aslı Özveren",
+      "link": "https://www.google.com/maps/contrib/103704359376313305714?hl=en-US",
+      "contributor_id": "103704359376313305714",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJGoFZJVbryFCH_TtZlWJh92JHtdAIo37dCB52h9EpLK1O3eg=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 2,
+      "photos": 1
+    },
+    "snippet": "Her zaman taze ve lezzetli ürünleri bulduğumuz tek yer 🙏",
+    "extracted_snippet": {
+      "original": "Her zaman taze ve lezzetli ürünleri bulduğumuz tek yer 🙏",
+      "translated": "The only place where we always find fresh and delicious products 🙏"
+    },
+    "likes": 0,
+    "response": {
+      "date": "5 months ago",
+      "iso_date": "2025-11-06T08:11:11Z",
+      "iso_date_of_last_edit": "2025-11-06T08:11:11Z",
+      "snippet": "Teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz .",
+        "translated": "Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.092Z"
+  },
+  {
+    "sube_adi": "Gümbet 2 Şubesi",
+    "position": 5,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25ScGFHSkZXRTExUm5CNmMwMWFVMlZQTmxBMVIwRRAB!2m1!1s0x0:0x43e8e17552f364d2!3m1!1s2@1:CAIQACodChtycF9oOnRpaGJFWE11RnB6c01aU2VPNlA1R0E%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "5 months ago",
+    "iso_date": "2025-11-05T10:34:34Z",
+    "iso_date_of_last_edit": "2025-11-05T10:34:34Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ScGFHSkZXRTExUm5CNmMwMWFVMlZQTmxBMVIwRRAB",
+    "user": {
+      "name": "Elvan Kansuay",
+      "link": "https://www.google.com/maps/contrib/110498243465398193901?hl=en-US",
+      "contributor_id": "110498243465398193901",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL7pw97e4T07P3g6xfSalefK041efyGu6dEzQpRiEG13mdHcA=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 5,
+      "photos": 1
+    },
+    "snippet": "Cok tatlı bir mekân ürünleri de çok güzel günlük cıktıgı cok belli hersey taptaze",
+    "extracted_snippet": {
+      "original": "Cok tatlı bir mekân ürünleri de çok güzel günlük cıktıgı cok belli hersey taptaze",
+      "translated": "It's a very lovely place, and their products are delicious; it's clear they're made daily, everything is incredibly fresh."
+    },
+    "likes": 0,
+    "response": {
+      "date": "5 months ago",
+      "iso_date": "2025-11-06T08:11:24Z",
+      "iso_date_of_last_edit": "2025-11-06T08:11:24Z",
+      "snippet": "Teşekkür ederiz",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz",
+        "translated": "Thank you"
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.092Z"
+  },
+  {
+    "sube_adi": "Gümbet 2 Şubesi",
+    "position": 6,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWblpXdHVaVXR3TVZBME4wMVZMVzh6UkRWS1pGRRAB!2m1!1s0x0:0x43e8e17552f364d2!3m1!1s2@1:CAIQACodChtycF9oOjVnZWtuZUtwMVA0N01VLW8zRDVKZFE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "5 months ago",
+    "iso_date": "2025-11-05T08:35:31Z",
+    "iso_date_of_last_edit": "2025-11-05T08:35:31Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWblpXdHVaVXR3TVZBME4wMVZMVzh6UkRWS1pGRRAB",
+    "user": {
+      "name": "flover",
+      "link": "https://www.google.com/maps/contrib/104025639409108051182?hl=en-US",
+      "contributor_id": "104025639409108051182",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK-eS06tUOz6fnSh8mJiD_0CVf9PEDeTiwAVmaMFy-f7U0huk4=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 2,
+      "photos": 0
+    },
+    "snippet": "Her şey taze, lezzetli ve özenle hazırlanmış, Özellikle soğuk baklava harika! Güler yüzlü hizmet için teşekkürler , (Başak Baydemir)🌸",
+    "extracted_snippet": {
+      "original": "Her şey taze, lezzetli ve özenle hazırlanmış, Özellikle soğuk baklava harika! Güler yüzlü hizmet için teşekkürler , (Başak Baydemir)🌸",
+      "translated": "Everything is fresh, delicious and carefully prepared. The cold baklava is especially delicious! Thank you for the friendly service, (Başak Baydemir)🌸"
+    },
+    "likes": 0,
+    "response": {
+      "date": "5 months ago",
+      "iso_date": "2025-11-05T09:01:08Z",
+      "iso_date_of_last_edit": "2025-11-05T09:01:08Z",
+      "snippet": "Teşekkür ederiz , yine  bekleriz.",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz , yine  bekleriz.",
+        "translated": "Thank you, we look forward to seeing you again."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.092Z"
+  },
+  {
+    "sube_adi": "Gümbet 2 Şubesi",
+    "position": 7,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tveloxb3pNMDkxZVMwdGFVMUNZV1ZGVFhoTmEwRRAB!2m1!1s0x0:0x43e8e17552f364d2!3m1!1s2@1:CAIQACodChtycF9oOkozZ1ozM091eS0taU1CYWVFTXhNa0E%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "5 months ago",
+    "iso_date": "2025-11-04T13:52:29Z",
+    "iso_date_of_last_edit": "2025-11-05T07:42:16Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tveloxb3pNMDkxZVMwdGFVMUNZV1ZGVFhoTmEwRRAB",
+    "user": {
+      "name": "Kivanc EROL",
+      "link": "https://www.google.com/maps/contrib/114150252802644997872?hl=en-US",
+      "contributor_id": "114150252802644997872",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUGtDJW3Rl8Ktpd3_0lSGkD3GDBIYcMdyL7E_zbHwsvqefF18C2=s120-c-rp-mo-ba3-br100",
+      "local_guide": true,
+      "reviews": 29,
+      "photos": 51
+    },
+    "snippet": "Çok şirin bir işletme , ürünleri taze .",
+    "extracted_snippet": {
+      "original": "Çok şirin bir işletme , ürünleri taze .",
+      "translated": "It's a very cute business, the products are fresh."
+    },
+    "likes": 0,
+    "response": {
+      "date": "5 months ago",
+      "iso_date": "2025-11-05T07:43:33Z",
+      "iso_date_of_last_edit": "2025-11-05T07:43:33Z",
+      "snippet": "Teşekkür ederiz",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz",
+        "translated": "Thank you"
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.092Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tSeFpWbDVaVlZzUldaNVgyeFlWR3huVUZGalYzYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOkRxZVl5ZVVsRWZ5X2xYVGxnUFFjV3c%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "Edited 3 days ago",
+    "iso_date": "2026-02-11T07:26:51Z",
+    "iso_date_of_last_edit": "2026-04-11T11:34:14Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSeFpWbDVaVlZzUldaNVgyeFlWR3huVUZGalYzYxAB",
+    "user": {
+      "name": "Ceyhan Dişli",
+      "link": "https://www.google.com/maps/contrib/101982151622012505709?hl=en-US",
+      "contributor_id": "101982151622012505709",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIt5kWpqblVGdzvUGIQFxB_GKgFLtGFGE9DaQabxnX3hp_UQN-_=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 0,
+      "photos": 0
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xdFlVRjRTbHBtVUdSUWFFZFFXVVJQYlZSTVJIYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOm1tYUF4SlpmUGRQaEdQWURPbVRMRHc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a month ago",
+    "iso_date": "2026-02-27T22:09:24Z",
+    "iso_date_of_last_edit": "2026-02-27T22:09:24Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xdFlVRjRTbHBtVUdSUWFFZFFXVVJQYlZSTVJIYxAB",
+    "user": {
+      "name": "gün sonay",
+      "link": "https://www.google.com/maps/contrib/107000063784350142700?hl=en-US",
+      "contributor_id": "107000063784350142700",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKluO1-vJvk39lb3IMULF3D4_698uk3_9Qn8nAgL7UmH5GlJQ=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "Bodrum'un en iyisi: ) Bildiğim kadarıyla 2 tane daha Royal var onlardan da ürün aldım ama en tazesi en lezzetlisi burada. Midem hassas, yolumu uzatırım, gelip tatlımı buradan alırım. Çalışanlar içten, güleryüzlü. Ekler her daim taze, daha tazesi yok. Cevizli baklava her zaman taze daha tatlısı yok. Ekmekleri zaten harika. Börekler başarılı, elmalı cevizli tarçınlı kurabiye seviyorsanız, muzlu rulo seviyorsanız.. yazıya başlayınca internetten sabah açılış saatine baktım : )",
+    "extracted_snippet": {
+      "original": "Bodrum'un en iyisi: ) Bildiğim kadarıyla 2 tane daha Royal var onlardan da ürün aldım ama en tazesi en lezzetlisi burada. Midem hassas, yolumu uzatırım, gelip tatlımı buradan alırım. Çalışanlar içten, güleryüzlü. Ekler her daim taze, daha tazesi yok. Cevizli baklava her zaman taze daha tatlısı yok. Ekmekleri zaten harika. Börekler başarılı, elmalı cevizli tarçınlı kurabiye seviyorsanız, muzlu rulo seviyorsanız.. yazıya başlayınca internetten sabah açılış saatine baktım : )",
+      "translated": "The best in Bodrum :) As far as I know, there are two other Royal branches, and I've bought products from them too, but the freshest and most delicious ones are here. I have a sensitive stomach, but I'd go out of my way to get my desserts from here. The staff are sincere and friendly. The eclairs are always fresh, you couldn't find any fresher. The walnut baklava is always fresh, there's nothing sweeter. Their bread is already fantastic. The pastries are excellent, and if you like apple, walnut, and cinnamon cookies, or banana rolls... I checked the morning opening hours online while I was writing this :)"
+    },
+    "likes": 0,
+    "response": {
+      "date": "a month ago",
+      "iso_date": "2026-02-28T12:19:01Z",
+      "iso_date_of_last_edit": "2026-02-28T12:19:01Z",
+      "snippet": "Yorumunuz için teşekkür eder , yine bekleriz  ...",
+      "extracted_snippet": {
+        "original": "Yorumunuz için teşekkür eder , yine bekleriz  ...",
+        "translated": "Thank you for your comment, we look forward to seeing you again..."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 3,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KTGNHaHNZa1kwVDNGamFWTlpla1U0TVZoeVdFRRAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOmJLcGhsYkY0T3FjaVNZekU4MVhyWEE%7C%7C?hl=en-US",
+    "rating": 2,
+    "date": "2 months ago",
+    "iso_date": "2026-02-06T18:18:44Z",
+    "iso_date_of_last_edit": "2026-02-06T18:20:54Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KTGNHaHNZa1kwVDNGamFWTlpla1U0TVZoeVdFRRAB",
+    "user": {
+      "name": "A. Kadir Kubilay",
+      "link": "https://www.google.com/maps/contrib/103070669230047277359?hl=en-US",
+      "contributor_id": "103070669230047277359",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUAoaebmfc7M3gD6PXsfsest_kKNqcZz6WyEB8ch0gzpbUcDsZ6=s120-c-rp-mo-ba6-br100",
+      "local_guide": true,
+      "reviews": 463,
+      "photos": 635
+    },
+    "snippet": "İlk defa alışveriş yaptım. Ekmek aldım. Tezgahta çalışan personel, Acıbadem kurabiyesini çok methettiği için aldım. Hatamı eve geldiğimde anladım. Hayatımda hiç bu kadar kötü bir şey yememiştim. Çok berbat bir şeydi. İnsan üç kuruş için yalan söyler mi? Bu işletmeye güvenim hiç kalmadı? Karar sizin.",
+    "extracted_snippet": {
+      "original": "İlk defa alışveriş yaptım. Ekmek aldım. Tezgahta çalışan personel, Acıbadem kurabiyesini çok methettiği için aldım. Hatamı eve geldiğimde anladım. Hayatımda hiç bu kadar kötü bir şey yememiştim. Çok berbat bir şeydi. İnsan üç kuruş için yalan söyler mi? Bu işletmeye güvenim hiç kalmadı? Karar sizin.",
+      "translated": "This was my first time shopping here. I bought bread. The staff member at the counter highly praised the Acıbadem cookies, so I bought some. I realized my mistake when I got home. I've never eaten anything so bad in my life. It was awful. Would anyone lie for a few pennies? I have absolutely no trust in this business anymore. The decision is yours."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 4,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21oa1IzaDRhM1UyYlhCeWRYSnZWRE50U0daRk1sRRAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOmhkR3h4a3U2bXBydXJvVDNtSGZFMlE%7C%7C?hl=en-US",
+    "rating": 2,
+    "date": "3 months ago",
+    "iso_date": "2026-01-02T08:32:17Z",
+    "iso_date_of_last_edit": "2026-01-02T08:32:17Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oa1IzaDRhM1UyYlhCeWRYSnZWRE50U0daRk1sRRAB",
+    "user": {
+      "name": "murat ergüder",
+      "link": "https://www.google.com/maps/contrib/117555815874006984323?hl=en-US",
+      "contributor_id": "117555815874006984323",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLgekbOafCMopAv95UvEi9ZBRhzIV5dDvFt6Ak5RZW792jIWg=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 4,
+      "photos": 0
+    },
+    "snippet": "Muthis pahali Istanbul ile mukayese edersen",
+    "extracted_snippet": {
+      "original": "Muthis pahali Istanbul ile mukayese edersen",
+      "translated": "It's incredibly expensive, especially when compared to Istanbul."
+    },
+    "likes": 0,
+    "response": {
+      "date": "3 months ago",
+      "iso_date": "2026-01-02T10:45:38Z",
+      "iso_date_of_last_edit": "2026-01-02T10:45:38Z",
+      "snippet": "4 Şube olmamıza  rağmen pahalı olarak yorumlayan kitle , Kumbahçe  Şube' den  çıkmaktadır . Yorumunuz için teşekkür eder ,  iyi seneler dileriz.",
+      "extracted_snippet": {
+        "original": "4 Şube olmamıza  rağmen pahalı olarak yorumlayan kitle , Kumbahçe  Şube' den  çıkmaktadır . Yorumunuz için teşekkür eder ,  iyi seneler dileriz.",
+        "translated": "Although we have 4 branches, the customers who commented that we are expensive are coming from the Kumbahçe branch. Thank you for your comment, and we wish you a happy new year."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 5,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCblZYTk5XV1p6VjFCMFF6ZDNNMEYxZFZoV2VrRRAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOjBnVXNNWWZzV1B0Qzd3M0F1dVhWekE%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "3 months ago",
+    "iso_date": "2025-12-28T09:06:46Z",
+    "iso_date_of_last_edit": "2025-12-28T09:06:46Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCblZYTk5XV1p6VjFCMFF6ZDNNMEYxZFZoV2VrRRAB",
+    "user": {
+      "name": "Erdal y",
+      "link": "https://www.google.com/maps/contrib/113087545965476818932?hl=en-US",
+      "contributor_id": "113087545965476818932",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWsZOJ_0MleeloqxHLqYl4XJvheEkPLLEgW8qjpAP1OCkOFimo=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 7,
+      "photos": 0
+    },
+    "snippet": "Bugün Sabah (28/12/2024) tarihinde sözde tereyağlı kaşarlı poğaça  aldım, çok iğrenç çok tatsız 1gram tereyağ Yok. artık hangi atık yağı kullanmışlar ise mideme dokundu  berbat gerçekten",
+    "extracted_snippet": {
+      "original": "Bugün Sabah (28/12/2024) tarihinde sözde tereyağlı kaşarlı poğaça  aldım, çok iğrenç çok tatsız 1gram tereyağ Yok. artık hangi atık yağı kullanmışlar ise mideme dokundu  berbat gerçekten",
+      "translated": "This morning (December 28, 2024), I bought a so-called butter and cheese pastry, it was disgusting, very tasteless, not a single gram of butter. Whatever waste oil they used, it upset my stomach, it was awful."
+    },
+    "likes": 0,
+    "response": {
+      "date": "3 months ago",
+      "iso_date": "2025-12-29T09:33:24Z",
+      "iso_date_of_last_edit": "2025-12-29T09:33:24Z",
+      "snippet": "Yorumda yer alan iddialar gerçeğe aykırı, mesnetsiz ve ispata muhtaçtır. Ürünlerimiz; yürürlükteki Türk Gıda Mevzuatı, hijyen standartları ve işletmemizin kayıtlı üretim reçeteleri doğrultusunda, düzenli denetim ve kontroller altında üretilmektedir. “Atık yağ” kullanıldığı yönündeki ifadeler, hiçbir somut veriye dayanmayan, işletmemizin ticari itibarını zedeleyici nitelikte ağır ithamlardır.\n\nBelirtilen tarih ve ürüne ilişkin olarak tarafımıza herhangi bir fiş, başvuru veya resmi bildirim yapılmamıştır. Gerçek bir mağduriyet söz konusu olması halinde, bunun yasal ve somut yollarla tarafımıza iletilmesi beklenir. Aksi halde, doğruluğu teyit edilemeyen bu tür paylaşımlar hukuki sorumluluk doğurabilecek nitelikte kabul edilmektedir.\n\nİşletmemiz, yapıcı ve belgeli eleştirileri değerlendirmeye açıktır; ancak kamuoyunu yanıltıcı, itibarı zedeleyici ve dayanağı olmayan yorumları kabul etmediğimizi açıkça belirtiriz.",
+      "extracted_snippet": {
+        "original": "Yorumda yer alan iddialar gerçeğe aykırı, mesnetsiz ve ispata muhtaçtır. Ürünlerimiz; yürürlükteki Türk Gıda Mevzuatı, hijyen standartları ve işletmemizin kayıtlı üretim reçeteleri doğrultusunda, düzenli denetim ve kontroller altında üretilmektedir. “Atık yağ” kullanıldığı yönündeki ifadeler, hiçbir somut veriye dayanmayan, işletmemizin ticari itibarını zedeleyici nitelikte ağır ithamlardır.\n\nBelirtilen tarih ve ürüne ilişkin olarak tarafımıza herhangi bir fiş, başvuru veya resmi bildirim yapılmamıştır. Gerçek bir mağduriyet söz konusu olması halinde, bunun yasal ve somut yollarla tarafımıza iletilmesi beklenir. Aksi halde, doğruluğu teyit edilemeyen bu tür paylaşımlar hukuki sorumluluk doğurabilecek nitelikte kabul edilmektedir.\n\nİşletmemiz, yapıcı ve belgeli eleştirileri değerlendirmeye açıktır; ancak kamuoyunu yanıltıcı, itibarı zedeleyici ve dayanağı olmayan yorumları kabul etmediğimizi açıkça belirtiriz.",
+        "translated": "The claims in the comment are untrue, unsubstantiated, and require proof. Our products are manufactured in accordance with current Turkish Food Legislation, hygiene standards, and our company's registered production recipes, under regular inspections and controls. Statements alleging the use of \"waste oil\" are serious accusations that are unsubstantiated and damaging to our company's commercial reputation.\n\nWe have not received any receipt, application, or official notification regarding the date and product mentioned. If a genuine grievance exists, it should be communicated to us through legal and concrete channels. Otherwise, such unverified claims are considered to have the potential to incur legal liability.\n\nOur company is open to constructive and documented criticism; however, we explicitly state that we do not accept comments that mislead the public, damage our reputation, and are unfounded."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 6,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOWldrUTBiMlJsZWtaTFgyaDNMVVJNYm1sM2VtYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOkNZWkQ0b2RlekZLX2h3LURMbml3emc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "5 months ago",
+    "iso_date": "2025-11-13T17:05:10Z",
+    "iso_date_of_last_edit": "2025-11-13T17:05:10Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOWldrUTBiMlJsZWtaTFgyaDNMVVJNYm1sM2VtYxAB",
+    "user": {
+      "name": "Gulsad Ergün",
+      "link": "https://www.google.com/maps/contrib/110497886986043249377?hl=en-US",
+      "contributor_id": "110497886986043249377",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI8m3ifJqN03axWIFh0algoH0mLRMHv3L32z2UTXTMfTQyRmw=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 8,
+      "photos": 1
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 7,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT214NlNqWm1OMU5KU2tsSExWbDRaMHBFU0VGckxXYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOmx6SjZmN1NJSklHLVl4Z0pESEFrLWc%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "5 months ago",
+    "iso_date": "2025-10-29T09:30:55Z",
+    "iso_date_of_last_edit": "2025-10-29T09:30:55Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214NlNqWm1OMU5KU2tsSExWbDRaMHBFU0VGckxXYxAB",
+    "user": {
+      "name": "A B",
+      "link": "https://www.google.com/maps/contrib/106205499401147540637?hl=en-US",
+      "contributor_id": "106205499401147540637",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVBoVy_OEFxldYZ9LRgYjvKlfwaXhFg0jpuvTnK74RdNcOoEBRz=s120-c-rp-mo-ba3-br100",
+      "local_guide": true,
+      "reviews": 64,
+      "photos": 30
+    },
+    "snippet": "Çok pahalı",
+    "extracted_snippet": {
+      "original": "Çok pahalı",
+      "translated": "Very expensive"
+    },
+    "likes": 0,
+    "response": {
+      "date": "5 months ago",
+      "iso_date": "2025-10-30T08:13:08Z",
+      "iso_date_of_last_edit": "2025-10-30T08:13:08Z",
+      "snippet": "Royal Pastanesi olarak butik üretim yapıyor, her üründe kaliteli ve sağlıklı ham maddeler kullanıyoruz. 🌿\nLütfen bizi endüstriyel, donuk ürünlerle kıyaslamayın.\nDeğerli yorumlarınız için teşekkür eder , sağlıklı  günler dileriz .\n",
+      "extracted_snippet": {
+        "original": "Royal Pastanesi olarak butik üretim yapıyor, her üründe kaliteli ve sağlıklı ham maddeler kullanıyoruz. 🌿\nLütfen bizi endüstriyel, donuk ürünlerle kıyaslamayın.\nDeğerli yorumlarınız için teşekkür eder , sağlıklı  günler dileriz .\n",
+        "translated": "At Royal Pastanesi, we produce in a boutique style, using high-quality and healthy raw materials in every product. 🌿\nPlease do not compare us with industrial, frozen products.\nThank you for your valuable comments, and we wish you healthy days.\n"
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 8,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pkelpsOUdTUzB4VVZoWldHbGZWRlZtWm0weWJtYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOjdzZl9GSS0xUVhZWGlfVFVmZm0ybmc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "5 months ago",
+    "iso_date": "2025-10-26T09:14:42Z",
+    "iso_date_of_last_edit": "2025-10-26T09:14:42Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkelpsOUdTUzB4VVZoWldHbGZWRlZtWm0weWJtYxAB",
+    "user": {
+      "name": "RASÜL KAHRAMAN",
+      "link": "https://www.google.com/maps/contrib/107723525474801019965?hl=en-US",
+      "contributor_id": "107723525474801019965",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJR-vkIZyTNZQA3UThEpgtrwmgFuq2WlA6eSihv2HaLDGr2QYU=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "Güler yüzlü çalışanları ve çok iyi işletme sahipleri bu hizmeti verdiniz için teşekkürler royal ailesi.",
+    "extracted_snippet": {
+      "original": "Güler yüzlü çalışanları ve çok iyi işletme sahipleri bu hizmeti verdiniz için teşekkürler royal ailesi.",
+      "translated": "Thank you, Royal Family, for providing this service to your friendly staff and very good business owners."
+    },
+    "likes": 0,
+    "response": {
+      "date": "5 months ago",
+      "iso_date": "2025-10-27T08:22:06Z",
+      "iso_date_of_last_edit": "2025-10-27T08:22:06Z",
+      "snippet": "Teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz .",
+        "translated": "Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.077Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 4,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2psNGFIUlJSMWw0VFVScmJqUnZiWFJZTUdaNWNsRRAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOjl4aHRRR1l4TURrbjRvbXRYMGZ5clE%7C%7C?hl=en-US",
+    "rating": 4,
+    "date": "a month ago",
+    "iso_date": "2026-03-06T07:27:09Z",
+    "iso_date_of_last_edit": "2026-03-06T07:27:09Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psNGFIUlJSMWw0VFVScmJqUnZiWFJZTUdaNWNsRRAB",
+    "user": {
+      "name": "Cenk Ayata",
+      "link": "https://www.google.com/maps/contrib/114979961332419273438?hl=en-US",
+      "contributor_id": "114979961332419273438",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUDxnHPukhn5eYYuEOyeI2OYB9amoYMjYRa9ZTjvfqJIOx5Iyo=s120-c-rp-mo-ba3-br100",
+      "local_guide": true,
+      "reviews": 22,
+      "photos": 19
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.056Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 5,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xVM2FUbGFWSEppTjBsdVQwZzBSR3hLZEhsdmRXYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOlU3aTlaVHJiN0luT0g0RGxKdHlvdWc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a month ago",
+    "iso_date": "2026-03-05T12:55:44Z",
+    "iso_date_of_last_edit": "2026-03-05T12:55:44Z",
+    "images": [
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lESop3TW9Lzj_M0wG2V5VFmJXYjdaP37Hwu8RXQaY_tdH1zpEAlMAE5gb5Q9yXVk8mqzhiwdffaT8q0VNfGkPdmhSn_8pCQPU4nMdrbT0FNF-6qmv6nj8_ymiSRvPd7Q2eC_WG0AtAYFsqUA"
+    ],
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVM2FUbGFWSEppTjBsdVQwZzBSR3hLZEhsdmRXYxAB",
+    "user": {
+      "name": "Veli Anne Emel Cemre ÇINAR",
+      "link": "https://www.google.com/maps/contrib/117660711708468087265?hl=en-US",
+      "contributor_id": "117660711708468087265",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWqtI6HaoERHGIARVo9dIDTzhf_PY73GvNTNpSFQ0vb8Mv3oZE=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 2
+    },
+    "snippet": "Royal ekibi pastamız çok güzeldi. İnanın bir dilim bile bırakmadı çocuklar ellerinize sağlık iyi ki varsınız🧿💐",
+    "extracted_snippet": {
+      "original": "Royal ekibi pastamız çok güzeldi. İnanın bir dilim bile bırakmadı çocuklar ellerinize sağlık iyi ki varsınız🧿💐",
+      "translated": "The Royal team, our cake was so beautiful. Believe me, the kids didn't leave a single slice! Thank you so much, we're so glad you're here! 🧿💐"
+    },
+    "likes": 0,
+    "response": {
+      "date": "a month ago",
+      "iso_date": "2026-03-06T07:43:08Z",
+      "iso_date_of_last_edit": "2026-03-06T07:43:08Z",
+      "snippet": "Teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz .",
+        "translated": "Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.056Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 6,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xSFMyTjFTRVZXVFZKMk4ybEtTVFV5VVRBMFRuYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOm1HS2N1SEVWTVJ2N2lKSTUyUTA0Tnc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a month ago",
+    "iso_date": "2026-03-03T18:51:07Z",
+    "iso_date_of_last_edit": "2026-03-03T18:51:07Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xSFMyTjFTRVZXVFZKMk4ybEtTVFV5VVRBMFRuYxAB",
+    "user": {
+      "name": "Tarkan",
+      "link": "https://www.google.com/maps/contrib/114538424215000451295?hl=en-US",
+      "contributor_id": "114538424215000451295",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKMZ1QQpn9sUhhEIGlkGVnHyrP5yoK_82f-b4NV0X7vi6dkbw=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 2,
+      "photos": 0
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.056Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 7,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OZlUzTk1NSGQ2Tm5WRFkzWmljV2swUm1RNE9XYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOmNfU3NMMHd6NnVDY3ZicWk0RmQ4OWc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a month ago",
+    "iso_date": "2026-02-27T21:48:23Z",
+    "iso_date_of_last_edit": "2026-02-27T21:48:23Z",
+    "images": [
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lES9wWWJNtNA1sQBLZ4rFMMKln2Fh7Xslb_rv5EIvrCd6sH88hKyAtS5-IK-t5DeDiIXFOwLhCFj-mU9P1c5I_FX7NdJWuwDJxv3Mz5EuFrMDPFyvvOvLXVuZU_IRQzrsmOd21RzeNeJS2E"
+    ],
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OZlUzTk1NSGQ2Tm5WRFkzWmljV2swUm1RNE9XYxAB",
+    "user": {
+      "name": "Aslı Özveren",
+      "link": "https://www.google.com/maps/contrib/103704359376313305714?hl=en-US",
+      "contributor_id": "103704359376313305714",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJGoFZJVbryFCH_TtZlWJh92JHtdAIo37dCB52h9EpLK1O3eg=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 2,
+      "photos": 1
+    },
+    "snippet": "Muhteşem herşey her zaman ki gibi herkese tavsiye ediyorum.\n❤️🙏",
+    "extracted_snippet": {
+      "original": "Muhteşem herşey her zaman ki gibi herkese tavsiye ediyorum.\n❤️🙏",
+      "translated": "Everything was amazing, as always. I recommend it to everyone. ❤️🙏"
+    },
+    "likes": 0,
+    "response": {
+      "date": "a month ago",
+      "iso_date": "2026-02-28T12:20:14Z",
+      "iso_date_of_last_edit": "2026-02-28T12:20:14Z",
+      "snippet": "Teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz .",
+        "translated": "Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.056Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 8,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOTVMyNUpTa0l6UWtaTWIxVTBOM2x0VUUxMlMxRRAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOkNMS25JSkIzQkZMb1U0N3ltUE12S1E%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a month ago",
+    "iso_date": "2026-02-27T19:24:35Z",
+    "iso_date_of_last_edit": "2026-02-27T19:24:35Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOTVMyNUpTa0l6UWtaTWIxVTBOM2x0VUUxMlMxRRAB",
+    "user": {
+      "name": "Samet Kayretli",
+      "link": "https://www.google.com/maps/contrib/112008919323999398750?hl=en-US",
+      "contributor_id": "112008919323999398750",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVyWmn9YPeTlI_FmyL2RLrmNKSXvnw6sehPRD0Y0w_GIoFQf8Pn=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 13,
+      "photos": 0
+    },
+    "snippet": "Arkadaşımın doğum günü için Royal pastanesine geldim ve aslı hanımın ilgi ve alakası için çok teşekkürler tekrar kesinlikle geleceğim herkese tavsiye ediyorum 😊😊😊🥳",
+    "extracted_snippet": {
+      "original": "Arkadaşımın doğum günü için Royal pastanesine geldim ve aslı hanımın ilgi ve alakası için çok teşekkürler tekrar kesinlikle geleceğim herkese tavsiye ediyorum 😊😊😊🥳",
+      "translated": "I came to Royal Patisserie for my friend's birthday and I would like to thank Ms. Aslı for her attention and care. I will definitely come again and I recommend it to everyone 😊😊😊🥳"
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.056Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pkWGVqWjZVRlIxZVU4NFNqZG1SVFZFWmpWQ1IxRRAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOjdXejZ6UFR1eU84SjdmRTVEZjVCR1E%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "2 weeks ago",
+    "iso_date": "2026-03-30T22:19:26Z",
+    "iso_date_of_last_edit": "2026-03-30T22:19:26Z",
+    "images": [
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQnsGuLNjHsBSm-Knz7jwVAj3dCDcwMNRywQSI8ecLIkcme0kO7-8F4ox3AYjaZ3XbstH8OWH7YNa91mE73IYuNvrt01K1gOXNt599S19HVKre8LyJifn9NC7w-yPTW_JMU4-t2KgyGvfc"
+    ],
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkWGVqWjZVRlIxZVU4NFNqZG1SVFZFWmpWQ1IxRRAB",
+    "user": {
+      "name": "Duygu Türkmen",
+      "link": "https://www.google.com/maps/contrib/111602270811247973039?hl=en-US",
+      "contributor_id": "111602270811247973039",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKscx6JYd2cgu1xn6TL-bX7pW3tXGH9rcWoIcQqlwDLGH5dwg=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 3,
+      "photos": 1
+    },
+    "snippet": "Çok güzel özenle hazırlanmıs istediğimizden daha güzel yapılmış bir pasta. Elinize emeğinize sağlık 🧿",
+    "extracted_snippet": {
+      "original": "Çok güzel özenle hazırlanmıs istediğimizden daha güzel yapılmış bir pasta. Elinize emeğinize sağlık 🧿",
+      "translated": "A beautiful, meticulously prepared cake, even better than we expected. Thank you for your hard work and effort! 🧿"
+    },
+    "likes": 0,
+    "response": {
+      "date": "2 weeks ago",
+      "iso_date": "2026-03-31T08:48:36Z",
+      "iso_date_of_last_edit": "2026-03-31T08:48:36Z",
+      "snippet": "Teşekkür ederiz.",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz.",
+        "translated": "Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.055Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKT2RDMVdkRWxEVGxGdWFraGZhbFp1U25kV01XYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOlJOdC1WdElDTlFuakhfalZuSndWMWc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "3 weeks ago",
+    "iso_date": "2026-03-22T19:05:22Z",
+    "iso_date_of_last_edit": "2026-03-22T19:05:22Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKT2RDMVdkRWxEVGxGdWFraGZhbFp1U25kV01XYxAB",
+    "user": {
+      "name": "Fatih Yakar",
+      "link": "https://www.google.com/maps/contrib/108634735197392940656?hl=en-US",
+      "contributor_id": "108634735197392940656",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVnSeref0XorUpIyaPC-ZZyFapueNrDUd6-3Cw3cfw3mSktWkdP-A=s120-c-rp-mo-ba6-br100",
+      "local_guide": true,
+      "reviews": 257,
+      "photos": 4366
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.055Z"
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 3,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Kc1RreEtlVVp1ZDJkc1RWWmxSa3BtZEdGamNXYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOnJsTkxKeUZud2dsTVZlRkpmdGFjcWc%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "a month ago",
+    "iso_date": "2026-03-06T21:40:26Z",
+    "iso_date_of_last_edit": "2026-03-06T21:40:26Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Kc1RreEtlVVp1ZDJkc1RWWmxSa3BtZEdGamNXYxAB",
+    "user": {
+      "name": "Elvin Işık",
+      "link": "https://www.google.com/maps/contrib/118091824353346206665?hl=en-US",
+      "contributor_id": "118091824353346206665",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLaohp_Fevcb-ZrypKiDKFBUSQrYACtJkUirbTk__-3vS2zFT4=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 3,
+      "photos": 1
+    },
+    "snippet": "aldigimiz tatlinin icinden plastik parcalar cikti boyle bi yere hic yakistirmadim tatliyi veren kadinda cok suratsizdi.",
+    "extracted_snippet": {
+      "original": "aldigimiz tatlinin icinden plastik parcalar cikti boyle bi yere hic yakistirmadim tatliyi veren kadinda cok suratsizdi.",
+      "translated": "There were plastic pieces in the dessert we bought; I didn't expect this from a place like this. The woman who gave us the dessert was also very grumpy."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.055Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tneFF6TjZUM3AzTjJwRU16TjVYM1JNWld4SlJVRRAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOkgxQzN6T3p3N2pEMzN5X3RMZWxJRUE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a day ago",
+    "iso_date": "2026-04-13T11:20:10Z",
+    "iso_date_of_last_edit": "2026-04-13T11:20:10Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tneFF6TjZUM3AzTjJwRU16TjVYM1JNWld4SlJVRRAB",
+    "user": {
+      "name": "Dasdibi",
+      "link": "https://www.google.com/maps/contrib/115911937127402686766?hl=en-US",
+      "contributor_id": "115911937127402686766",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKM0JaCIxy3IDPpCXAcKHLEhkff8SYMFqNEKYoGiqWTMl0Qag=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "Her şey çok profesyonel\nSerdar Beye ilgi ve alakası için çok teşekkür ediyorum",
+    "extracted_snippet": {
+      "original": "Her şey çok profesyonel\nSerdar Beye ilgi ve alakası için çok teşekkür ediyorum",
+      "translated": "Everything was very professional.\nI would like to thank Mr. Serdar for his attention and care."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.034Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aUmRERkhhRU5NVGtndFFsUmxhWGs0VkZKU1NXYxAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOnZRdDFHaENMTkgtQlRlaXk4VFJSSWc%7C%7C?hl=en-US",
+    "rating": 4,
+    "date": "2 days ago",
+    "iso_date": "2026-04-11T20:06:40Z",
+    "iso_date_of_last_edit": "2026-04-11T20:06:40Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aUmRERkhhRU5NVGtndFFsUmxhWGs0VkZKU1NXYxAB",
+    "user": {
+      "name": "Naci Durmaz",
+      "link": "https://www.google.com/maps/contrib/114964814404581810792?hl=en-US",
+      "contributor_id": "114964814404581810792",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJor37v3VHiu0g1-q2rgFzacK63VuxmG_EjHow2vfGOcZCEGg=s120-c-rp-mo-ba4-br100",
+      "local_guide": true,
+      "reviews": 140,
+      "photos": 43
+    },
+    "snippet": "Oldukça temiz fiyatlarda idare eder",
+    "extracted_snippet": {
+      "original": "Oldukça temiz fiyatlarda idare eder",
+      "translated": "Pretty clean, acceptable price."
+    },
+    "likes": 0,
+    "response": {
+      "date": "a day ago",
+      "iso_date": "2026-04-12T17:19:19Z",
+      "iso_date_of_last_edit": "2026-04-12T17:19:19Z",
+      "snippet": "Teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz .",
+        "translated": "Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.034Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 3,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkak1ubGxkVWxxUVdOWVF6RklZVFJCVm0xeFNFRRAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOldjMnlldUlqQWNYQzFIYTRBVm1xSEE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "3 days ago",
+    "iso_date": "2026-04-11T11:35:07Z",
+    "iso_date_of_last_edit": "2026-04-11T11:35:07Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkak1ubGxkVWxxUVdOWVF6RklZVFJCVm0xeFNFRRAB",
+    "user": {
+      "name": "Remzi Vatandaş",
+      "link": "https://www.google.com/maps/contrib/109098024553720136192?hl=en-US",
+      "contributor_id": "109098024553720136192",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK_IsCyxTFFMP2MBFzEbvX93oQTaLVb_wEussTxdSBUy0L1AA=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "İkizlerimizin doğum günü için tasarladıkları görseli titizlikle ve kusursuz yapan, ilk andan itibaren güler yüzlü ve çözüme yönelik aksiyon alan serdar ustamıza, bizlere her zaman güven ve destek veren royal pastaneleri sahibi sevgili Mustafa Gözüm’e ve tüm ekibe sonsuz teşekkür ediyoruz. Kalite ve güvenin adresi diyebiliriz. Teşekkürler",
+    "extracted_snippet": {
+      "original": "İkizlerimizin doğum günü için tasarladıkları görseli titizlikle ve kusursuz yapan, ilk andan itibaren güler yüzlü ve çözüme yönelik aksiyon alan serdar ustamıza, bizlere her zaman güven ve destek veren royal pastaneleri sahibi sevgili Mustafa Gözüm’e ve tüm ekibe sonsuz teşekkür ediyoruz. Kalite ve güvenin adresi diyebiliriz. Teşekkürler",
+      "translated": "We would like to express our endless gratitude to Master Serdar, who meticulously and flawlessly created the design for our twins' birthday, and who was always friendly and took solution-oriented actions from the very beginning; and to our dear Mustafa Gözüm, the owner of Royal Pastaneleri, and the entire team, for their continued trust and support. We can truly say they are the address for quality and trust. Thank you!"
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.034Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 4,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCUGVHaHRVVlppUmpsdk5VZEhUVVV3TlZoeFlsRRAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOlBPeGhtUVZiRjlvNUdHTUUwNVhxYlE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a week ago",
+    "iso_date": "2026-04-06T07:58:51Z",
+    "iso_date_of_last_edit": "2026-04-06T07:58:51Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCUGVHaHRVVlppUmpsdk5VZEhUVVV3TlZoeFlsRRAB",
+    "user": {
+      "name": "Volkan Çetin",
+      "link": "https://www.google.com/maps/contrib/108589842224212001843?hl=en-US",
+      "contributor_id": "108589842224212001843",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWooS6wWIUUVFmqGuM8Cibyk8DnfH2nDx2ixqFLU1HitDLJ8EcvmQ=s120-c-rp-mo-ba2-br100",
+      "local_guide": true,
+      "reviews": 10,
+      "photos": 0
+    },
+    "snippet": "Royal Pastanesi kızımızın doğum günü için harika bir pasta yaptı. Kendilerine teşekkür ediyorum ve kendilerini gönül rahatlığıyla öneriyorum.",
+    "extracted_snippet": {
+      "original": "Royal Pastanesi kızımızın doğum günü için harika bir pasta yaptı. Kendilerine teşekkür ediyorum ve kendilerini gönül rahatlığıyla öneriyorum.",
+      "translated": "Royal Pastanesi made a wonderful cake for our daughter's birthday. I thank them and wholeheartedly recommend them."
+    },
+    "likes": 0,
+    "response": {
+      "date": "a week ago",
+      "iso_date": "2026-04-06T19:06:40Z",
+      "iso_date_of_last_edit": "2026-04-06T19:06:40Z",
+      "snippet": "Teşekkür ederiz   ,  yine  bekleriz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz   ,  yine  bekleriz .",
+        "translated": "Thank you, we look forward to seeing you again."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.034Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 5,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSVWRtc3lSMVl0T1ZScGFVRTRiREpLUWxSR1lVRRAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOlRUdmsyR1YtOVRpaUE4bDJKQlRGYUE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "2 weeks ago",
+    "iso_date": "2026-03-29T12:38:37Z",
+    "iso_date_of_last_edit": "2026-03-29T12:38:37Z",
+    "images": [
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQGPQMz-hJvf-K9KdUk88dEk1RiQdGwklriuuvKKP8KjJ_I1tZQuNv-89E2q8de2MTjRjikOapVze2CXh0VrIU_uKzawdE5pB--3nh1xHwkTrIGz5qzRGq7BN_gtBLu0_nDvWBqE-juJIo"
+    ],
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVWRtc3lSMVl0T1ZScGFVRTRiREpLUWxSR1lVRRAB",
+    "user": {
+      "name": "Fulya Öztaşkın",
+      "link": "https://www.google.com/maps/contrib/104597160397982499427?hl=en-US",
+      "contributor_id": "104597160397982499427",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKyIu18DuypKkZ2C_eU_sGX32dSbL47DDaDAke8o-M74U5ku8Y9=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 2,
+      "photos": 1
+    },
+    "snippet": "İstediğim model pastayı beklediğimden daha güzel ve harika lezzette yaptıkları için çok teşekkür ederim",
+    "extracted_snippet": {
+      "original": "İstediğim model pastayı beklediğimden daha güzel ve harika lezzette yaptıkları için çok teşekkür ederim",
+      "translated": "Thank you so much for making the cake I wanted, it was even more beautiful and delicious than I expected!"
+    },
+    "likes": 0,
+    "response": {
+      "date": "2 weeks ago",
+      "iso_date": "2026-03-29T15:04:30Z",
+      "iso_date_of_last_edit": "2026-03-29T15:04:30Z",
+      "snippet": "Biz teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "Biz teşekkür ederiz .",
+        "translated": "We thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.034Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 6,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xVNGJXRlZNa0k1U1V4NWREaEdNMU5mZWtrMWFWRRAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOlU4bWFVMkI5SUx5dDhGM1Nfekk1aVE%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "3 weeks ago",
+    "iso_date": "2026-03-22T12:13:54Z",
+    "iso_date_of_last_edit": "2026-03-22T12:13:54Z",
+    "images": [
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lER72teOTtDufcffnkXYCkGr4ikgM7K9oeIdvZmXceB7MYva8CiMaGa9BFTZmLzcN9gCtvLE5fRfAr4-6m5dfc533hUcIfdWz5ICKK8ZkS2PRxLD8JuHmGYMdzlXkVebKOVQ3X06qBg49QE"
+    ],
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVNGJXRlZNa0k1U1V4NWREaEdNMU5mZWtrMWFWRRAB",
+    "user": {
+      "name": "Barış İnce",
+      "link": "https://www.google.com/maps/contrib/113000990947661795858?hl=en-US",
+      "contributor_id": "113000990947661795858",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUJRczKFoNhjLOevJcJRBVWdbV9YIxt-HEuYH9GkgZPkM8us_BF=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 7,
+      "photos": 1
+    },
+    "snippet": "Daha önce hem lezzetini hem kalitesini beğenerek alışveriş yaptığım bir yerdi. Ancak son aldığım kıymalı börek sonrası ciddi bir mide yanması yaşadım. Daha önce böyle bir durumla karşılaşmamıştım, bu yüzden kaliteyle ilgili soru işareti oluştu.\n\nAyrıca ‘sakallı’ diye satılan üründe maydanozun neredeyse sadece sap kısımları vardı. Fotograftada görebilirsiniz. Ya fiyatlarınızı düşürün ya da kaliteyi eski haline getirin.",
+    "extracted_snippet": {
+      "original": "Daha önce hem lezzetini hem kalitesini beğenerek alışveriş yaptığım bir yerdi. Ancak son aldığım kıymalı börek sonrası ciddi bir mide yanması yaşadım. Daha önce böyle bir durumla karşılaşmamıştım, bu yüzden kaliteyle ilgili soru işareti oluştu.\n\nAyrıca ‘sakallı’ diye satılan üründe maydanozun neredeyse sadece sap kısımları vardı. Fotograftada görebilirsiniz. Ya fiyatlarınızı düşürün ya da kaliteyi eski haline getirin.",
+      "translated": "This was a place I used to shop at and enjoyed both the taste and quality. However, after buying their last meat-filled pastry, I experienced severe heartburn. I'd never encountered anything like this before, so it raises questions about their quality.\n\nAlso, the product marketed as \"bearded\" had parsley that was almost exclusively the stems. You can see this in the photo. Either lower your prices or restore the quality to its previous level."
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.034Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 7,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wcWRURkphR3gzV2pNMUxWRndWamQ1YTFSdWFWRRAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOnpqdTFJaGx3WjM1LVFwVjd5a1RuaVE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "3 weeks ago",
+    "iso_date": "2026-03-21T12:37:00Z",
+    "iso_date_of_last_edit": "2026-03-21T12:37:00Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wcWRURkphR3gzV2pNMUxWRndWamQ1YTFSdWFWRRAB",
+    "user": {
+      "name": "HAKAN VAPUR",
+      "link": "https://www.google.com/maps/contrib/110479642774744396938?hl=en-US",
+      "contributor_id": "110479642774744396938",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJM2Uw8QrJu-A1beQOL6lObYC9GLZjpMGsI4vsMBStgHCmxWg=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "Kız arkadaşıma doğum günü için resimli pasta siparişi verdim gerçekten Emeğinize eline sağlık şahane olmuş Royal Gümbet şubesine teşekkür ederim bizzat yakından ilgilenen ilgi alakayı eksik etmeyen Serdar Bey'e çok teşekkürlerimi gönderiyorum\nSelamlarsaygılar\nHakan VAPUR",
+    "extracted_snippet": {
+      "original": "Kız arkadaşıma doğum günü için resimli pasta siparişi verdim gerçekten Emeğinize eline sağlık şahane olmuş Royal Gümbet şubesine teşekkür ederim bizzat yakından ilgilenen ilgi alakayı eksik etmeyen Serdar Bey'e çok teşekkürlerimi gönderiyorum\nSelamlarsaygılar\nHakan VAPUR",
+      "translated": "I ordered a custom-made cake with a picture for my girlfriend's birthday. It turned out amazing! I'd like to thank the Royal Gümbet branch and especially Mr. Serdar for his attentive service and care.\nRegards,\nHakan VAPUR"
+    },
+    "likes": 0,
+    "response": {
+      "date": "3 weeks ago",
+      "iso_date": "2026-03-22T07:30:28Z",
+      "iso_date_of_last_edit": "2026-03-22T07:30:28Z",
+      "snippet": "Teşekkür ederiz .",
+      "extracted_snippet": {
+        "original": "Teşekkür ederiz .",
+        "translated": "Thank you."
+      }
+    },
+    "save_date": "2026-04-14T15:24:23.034Z"
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 8,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aUFJEbG9abDlDWkhndGFIaFRNekV6WTBkNU5WRRAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOnZPRDloZl9CZHgtaHhTMzEzY0d5NVE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "3 weeks ago",
+    "iso_date": "2026-03-20T08:20:48Z",
+    "iso_date_of_last_edit": "2026-03-20T08:26:47Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aUFJEbG9abDlDWkhndGFIaFRNekV6WTBkNU5WRRAB",
+    "user": {
+      "name": "Mehmet Bas",
+      "link": "https://www.google.com/maps/contrib/102681164849643873009?hl=en-US",
+      "contributor_id": "102681164849643873009",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVljlfyNs0bFZZ-jyQrYurTIXq0wqMwvaG6mfbx3GZw0UR_DeB0zw=s120-c-rp-mo-ba5-br100",
+      "local_guide": true,
+      "reviews": 106,
+      "photos": 377
+    },
+    "likes": 0,
+    "save_date": "2026-04-14T15:24:23.034Z"
+  }
+]
