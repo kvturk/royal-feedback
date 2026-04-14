@@ -1,0 +1,39 @@
+name: Royal Feedback Bot
+
+on:
+  schedule:
+    - cron: '0 18 */2 * *' # 2 günde 1, akşam 21:00 (TSİ)
+  workflow_dispatch: # Manuel çalıştırma butonu
+
+permissions:
+  contents: write # Dosyayı güncelleyip geri kaydedebilmesi için ŞART
+
+jobs:
+  check-reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu Kontrol Et
+        uses: actions/checkout@v4
+
+      - name: Node.js Kurulumu
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Bağımlılıkları Kur
+        run: npm install axios # Eğer kodda axios kullanacaksak
+
+      - name: Yorumları Kontrol Et ve Kaydet
+        run: node yorum.js
+        env:
+          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+
+      - name: Değişiklikleri GitHub'a Geri Yükle
+        run: |
+          git config --global user.name "Royal-Bot"
+          git config --global user.email "bot@royalpastanesi.com"
+          git add yorumlar.json
+          git commit -m "📊 Otomatik Güncelleme: Yeni yorumlar eklendi" || echo "Yeni yorum yok."
+          git push
