@@ -1,11 +1,9 @@
-
 const fs = require('fs');
 
 const SERP_API_KEY = process.env.SERP_API_KEY;
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
 
-// Şube listesi (Senin verdiğin data_id'ler ile)
 const SUBELER = [
     { ad: "Gümbet Şubesi", data_id: "0x14be6c4b08285de1:0x3ba811719107302" },
     { ad: "Konacık Şubesi", data_id: "0x14be6dc9c9c3a38b:0x30a13f47b5fa2716" },
@@ -15,19 +13,18 @@ const SUBELER = [
 ];
 
 async function checkReviews() {
-    console.log("🚀 Yorum kontrolü başlıyor...");
+    console.log("🤫 SESSİZ MOD: Hafıza doldurma işlemi başlıyor...");
 
-    // 1. Mevcut hafızayı (yorumlar.json) oku
     let memory = [];
     try {
         const data = fs.readFileSync('yorumlar.json', 'utf8');
         memory = JSON.parse(data);
     } catch (err) {
-        console.log("ℹ️ Henüz hafıza dosyası yok veya boş.");
+        console.log("ℹ️ Yeni hafıza dosyası oluşturuluyor.");
     }
 
     let allSavedIds = memory.map(r => r.review_id);
-    let newReviewsCount = 0;
+    let count = 0;
 
     for (const sube of SUBELER) {
         console.log(`🔍 ${sube.ad} taranıyor...`);
@@ -39,36 +36,14 @@ async function checkReviews() {
             const reviews = data.reviews || [];
 
             for (const review of reviews) {
-                // Eğer bu yorumun ID'si hafızamızda YOKSA yenidir
                 if (!allSavedIds.includes(review.review_id)) {
-                    newReviewsCount++;
-                    
-                    // Hafızaya ekle (Frontend'de kullanmak için şube adını da ekliyoruz)
+                    count++;
                     memory.push({
                         sube_adi: sube.ad,
                         ...review,
                         save_date: new Date().toISOString()
                     });
-
-                    // Telegram Mesajı Hazırla
-                    const stars = "⭐".repeat(review.rating);
-                    let message = `🏢 *${sube.ad.toUpperCase()}*\n` +
-                                  `🌟 *Yeni Yorum Geldi!*\n\n` +
-                                  `👤 *${review.user.name}*\n` +
-                                  `${stars} (${review.rating}/5)\n\n` +
-                                  `💬 "${review.snippet || 'Sadece puan bırakılmış.'}"\n\n` +
-                                  `🔗 [Haritada Gör](${review.link})`;
-
-                    // Telegram'a gönder
-                    await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({
-                            chat_id: CHAT_ID,
-                            text: message,
-                            parse_mode: 'Markdown'
-                        })
-                    });
+                    // TELEGRAM KISMI DEVRE DIŞI BIRAKILDI
                 }
             }
         } catch (error) {
@@ -76,14 +51,12 @@ async function checkReviews() {
         }
     }
 
-    // 3. Güncellenmiş hafızayı dosyaya geri yaz
-    if (newReviewsCount > 0) {
-        // En yeni yorumlar en üstte görünsün diye sıralayalım
+    if (count > 0) {
         memory.sort((a, b) => new Date(b.save_date) - new Date(a.save_date));
         fs.writeFileSync('yorumlar.json', JSON.stringify(memory, null, 2));
-        console.log(`✅ Toplam ${newReviewsCount} yeni yorum kaydedildi ve gönderildi.`);
+        console.log(`✅ BAŞARILI: ${count} adet eski yorum sessizce hafızaya alındı.`);
     } else {
-        console.log("ℹ️ Yeni yorum bulunamadı.");
+        console.log("ℹ️ Hafızaya eklenecek yeni bir şey bulunamadı.");
     }
 }
 
