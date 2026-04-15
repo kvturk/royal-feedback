@@ -1,5 +1,28 @@
 [
   {
+    "sube_adi": "Konacık Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25VMlYwcDJZbGg2ZDNGeE9IRXdRVWhwYjAxb1NFRRAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOnU2V0p2Ylh6d3FxOHEwQUhpb01oSEE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "21 minutes ago",
+    "iso_date": "2026-04-15T18:40:15Z",
+    "iso_date_of_last_edit": "2026-04-15T18:40:15Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VMlYwcDJZbGg2ZDNGeE9IRXdRVWhwYjAxb1NFRRAB",
+    "user": {
+      "name": "suha sönmez",
+      "link": "https://www.google.com/maps/contrib/117987352755734290349?hl=en-US",
+      "contributor_id": "117987352755734290349",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ-4rFtQJcfVeMP0n5NdpV6LHf2HgqjemH9ZZM-uxJYWrurWik=s120-c-rp-mo-ba3-br100",
+      "local_guide": true,
+      "reviews": 6,
+      "photos": 15
+    },
+    "likes": 0,
+    "save_date": "2026-04-15T19:01:17.630Z",
+    "is_new": true
+  },
+  {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
     "position": 1,
     "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKYVRIcHVUbXRrVEMxRlEwZzFiRTh0YkdkaWJsRRAB!2m1!1s0x0:0xb861d8fc43493945!3m1!1s2@1:CAIQACodChtycF9oOkJaTHpuTmtkTC1FQ0g1bE8tbGdiblE%7C%7C?hl=en-US",
@@ -24,7 +47,8 @@
       "translated": "The most disgusting olive sandwich, crescent roll, and poppy seed roll I've ever eaten in my life. Don't you even have a skilled chef? The crescent roll dough wasn't kneaded properly, and cocoa powder was poured on it. Couldn't you show a little more care? It's a shame for such a nice business."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
@@ -51,7 +75,8 @@
       "translated": "I placed an order and it arrived spilled."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
@@ -78,7 +103,8 @@
       "translated": "The products are nice and clean. They have a wide variety.\nThe only issue is that the Royal breakfast says there are 2 eggs, but only 1 comes. They say there are 2 teacups, but they don't know where to put the comma. You can order them extra for almost half the breakfast price. It's worth checking the receipt, they added something extra. Overall, the products are good, but the prices are a bit expensive."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
@@ -112,7 +138,8 @@
       "atmosphere": 5
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
@@ -139,7 +166,8 @@
       "atmosphere": 2
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
@@ -161,7 +189,8 @@
       "photos": 5
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
@@ -193,7 +222,8 @@
       "atmosphere": 4
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
@@ -220,7 +250,8 @@
       "translated": "Fresh tea, cheese toast, warm people and service."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.112Z"
+    "save_date": "2026-04-14T15:24:23.112Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet 2 Şubesi",
@@ -257,7 +288,8 @@
         "translated": "Thank you, you're always welcome."
       }
     },
-    "save_date": "2026-04-14T15:24:23.092Z"
+    "save_date": "2026-04-14T15:24:23.092Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet 2 Şubesi",
@@ -294,7 +326,8 @@
         "translated": "The 0 Star message was received and the necessary arrangements were made. Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.092Z"
+    "save_date": "2026-04-14T15:24:23.092Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet 2 Şubesi",
@@ -321,7 +354,8 @@
       "translated": "A cute boutique branch of Royal, be sure to visit"
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.092Z"
+    "save_date": "2026-04-14T15:24:23.092Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet 2 Şubesi",
@@ -358,7 +392,8 @@
         "translated": "Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.092Z"
+    "save_date": "2026-04-14T15:24:23.092Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet 2 Şubesi",
@@ -395,7 +430,8 @@
         "translated": "Thank you"
       }
     },
-    "save_date": "2026-04-14T15:24:23.092Z"
+    "save_date": "2026-04-14T15:24:23.092Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet 2 Şubesi",
@@ -432,7 +468,8 @@
         "translated": "Thank you, we look forward to seeing you again."
       }
     },
-    "save_date": "2026-04-14T15:24:23.092Z"
+    "save_date": "2026-04-14T15:24:23.092Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet 2 Şubesi",
@@ -469,7 +506,8 @@
         "translated": "Thank you"
       }
     },
-    "save_date": "2026-04-14T15:24:23.092Z"
+    "save_date": "2026-04-14T15:24:23.092Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -491,7 +529,8 @@
       "photos": 0
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -528,7 +567,8 @@
         "translated": "Thank you for your comment, we look forward to seeing you again..."
       }
     },
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -555,7 +595,8 @@
       "translated": "This was my first time shopping here. I bought bread. The staff member at the counter highly praised the Acıbadem cookies, so I bought some. I realized my mistake when I got home. I've never eaten anything so bad in my life. It was awful. Would anyone lie for a few pennies? I have absolutely no trust in this business anymore. The decision is yours."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -592,7 +633,8 @@
         "translated": "Although we have 4 branches, the customers who commented that we are expensive are coming from the Kumbahçe branch. Thank you for your comment, and we wish you a happy new year."
       }
     },
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -629,7 +671,8 @@
         "translated": "The claims in the comment are untrue, unsubstantiated, and require proof. Our products are manufactured in accordance with current Turkish Food Legislation, hygiene standards, and our company's registered production recipes, under regular inspections and controls. Statements alleging the use of \"waste oil\" are serious accusations that are unsubstantiated and damaging to our company's commercial reputation.\n\nWe have not received any receipt, application, or official notification regarding the date and product mentioned. If a genuine grievance exists, it should be communicated to us through legal and concrete channels. Otherwise, such unverified claims are considered to have the potential to incur legal liability.\n\nOur company is open to constructive and documented criticism; however, we explicitly state that we do not accept comments that mislead the public, damage our reputation, and are unfounded."
       }
     },
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -651,7 +694,8 @@
       "photos": 1
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -688,7 +732,8 @@
         "translated": "At Royal Pastanesi, we produce in a boutique style, using high-quality and healthy raw materials in every product. 🌿\nPlease do not compare us with industrial, frozen products.\nThank you for your valuable comments, and we wish you healthy days.\n"
       }
     },
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -725,7 +770,8 @@
         "translated": "Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.077Z"
+    "save_date": "2026-04-14T15:24:23.077Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -747,7 +793,8 @@
       "photos": 19
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.056Z"
+    "save_date": "2026-04-14T15:24:23.056Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -787,7 +834,8 @@
         "translated": "Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.056Z"
+    "save_date": "2026-04-14T15:24:23.056Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -809,7 +857,8 @@
       "photos": 0
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.056Z"
+    "save_date": "2026-04-14T15:24:23.056Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -849,7 +898,8 @@
         "translated": "Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.056Z"
+    "save_date": "2026-04-14T15:24:23.056Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -876,7 +926,8 @@
       "translated": "I came to Royal Patisserie for my friend's birthday and I would like to thank Ms. Aslı for her attention and care. I will definitely come again and I recommend it to everyone 😊😊😊🥳"
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.056Z"
+    "save_date": "2026-04-14T15:24:23.056Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -916,7 +967,8 @@
         "translated": "Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.055Z"
+    "save_date": "2026-04-14T15:24:23.055Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -938,7 +990,8 @@
       "photos": 4366
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.055Z"
+    "save_date": "2026-04-14T15:24:23.055Z",
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -965,7 +1018,8 @@
       "translated": "There were plastic pieces in the dessert we bought; I didn't expect this from a place like this. The woman who gave us the dessert was also very grumpy."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.055Z"
+    "save_date": "2026-04-14T15:24:23.055Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -992,7 +1046,8 @@
       "translated": "Everything was very professional.\nI would like to thank Mr. Serdar for his attention and care."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -1029,7 +1084,8 @@
         "translated": "Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -1056,7 +1112,8 @@
       "translated": "We would like to express our endless gratitude to Master Serdar, who meticulously and flawlessly created the design for our twins' birthday, and who was always friendly and took solution-oriented actions from the very beginning; and to our dear Mustafa Gözüm, the owner of Royal Pastaneleri, and the entire team, for their continued trust and support. We can truly say they are the address for quality and trust. Thank you!"
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -1093,7 +1150,8 @@
         "translated": "Thank you, we look forward to seeing you again."
       }
     },
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -1133,7 +1191,8 @@
         "translated": "We thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -1163,7 +1222,8 @@
       "translated": "This was a place I used to shop at and enjoyed both the taste and quality. However, after buying their last meat-filled pastry, I experienced severe heartburn. I'd never encountered anything like this before, so it raises questions about their quality.\n\nAlso, the product marketed as \"bearded\" had parsley that was almost exclusively the stems. You can see this in the photo. Either lower your prices or restore the quality to its previous level."
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -1200,7 +1260,8 @@
         "translated": "Thank you."
       }
     },
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   },
   {
     "sube_adi": "Gümbet Şubesi",
@@ -1222,6 +1283,7 @@
       "photos": 377
     },
     "likes": 0,
-    "save_date": "2026-04-14T15:24:23.034Z"
+    "save_date": "2026-04-14T15:24:23.034Z",
+    "is_new": false
   }
 ]
