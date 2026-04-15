@@ -13,18 +13,22 @@ const SUBELER = [
 ];
 
 async function checkReviews() {
-    console.log("🤫 SESSİZ MOD: Hafıza doldurma işlemi başlıyor...");
+    console.log("🚀 CANLI MOD: Yeni yorum kontrolü ve Telegram bildirimi başlatıldı...");
 
     let memory = [];
     try {
         const data = fs.readFileSync('yorumlar.json', 'utf8');
         memory = JSON.parse(data);
     } catch (err) {
-        console.log("ℹ️ Yeni hafıza dosyası oluşturuluyor.");
+        console.log("ℹ️ Hafıza dosyası bulunamadı, yeni oluşturulacak.");
     }
 
+    // KRİTİK: Yeni tarama başlamadan önce hafızadaki tüm "is_new" işaretlerini temizliyoruz
+    // Böylece sadece BU TURDA gelenler "YENİ" görünecek.
+    memory = memory.map(r => ({ ...r, is_new: false }));
+
     let allSavedIds = memory.map(r => r.review_id);
-    let count = 0;
+    let newReviewsCount = 0;
 
     for (const sube of SUBELER) {
         console.log(`🔍 ${sube.ad} taranıyor...`);
@@ -37,13 +41,36 @@ async function checkReviews() {
 
             for (const review of reviews) {
                 if (!allSavedIds.includes(review.review_id)) {
-                    count++;
-                    memory.push({
+                    newReviewsCount++;
+                    
+                    // Veriye "is_new: true" ekliyoruz (Frontend uyarısı için)
+                    const newEntry = {
                         sube_adi: sube.ad,
                         ...review,
-                        save_date: new Date().toISOString()
+                        save_date: new Date().toISOString(),
+                        is_new: true 
+                    };
+
+                    memory.push(newEntry);
+
+                    // --- TELEGRAM BİLDİRİMİ (AKTİF) ---
+                    const stars = "⭐".repeat(review.rating);
+                    let message = `🏢 *${sube.ad.toUpperCase()}*\n` +
+                                  `🌟 *Yeni Google Yorumu!*\n\n` +
+                                  `👤 *${review.user.name}*\n` +
+                                  `${stars} (${review.rating}/5)\n\n` +
+                                  `💬 "${review.snippet || 'Sadece puan bırakılmış.'}"\n\n` +
+                                  `🔗 [Haritada Gör](${review.link})`;
+
+                    await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            chat_id: CHAT_ID,
+                            text: message,
+                            parse_mode: 'Markdown'
+                        })
                     });
-                    // TELEGRAM KISMI DEVRE DIŞI BIRAKILDI
                 }
             }
         } catch (error) {
@@ -51,12 +78,13 @@ async function checkReviews() {
         }
     }
 
-    if (count > 0) {
+    if (newReviewsCount > 0) {
+        // En yeni en üstte
         memory.sort((a, b) => new Date(b.save_date) - new Date(a.save_date));
         fs.writeFileSync('yorumlar.json', JSON.stringify(memory, null, 2));
-        console.log(`✅ BAŞARILI: ${count} adet eski yorum sessizce hafızaya alındı.`);
+        console.log(`✅ BAŞARILI: ${newReviewsCount} yeni yorum Telegram'a gönderildi ve kaydedildi.`);
     } else {
-        console.log("ℹ️ Hafızaya eklenecek yeni bir şey bulunamadı.");
+        console.log("ℹ️ Yeni bir yorum bulunamadı.");
     }
 }
 
