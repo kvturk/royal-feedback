@@ -13,9 +13,38 @@
         .table-shadow { box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
         .status-taze { background-color: #d4f4e2; color: #27ae60; border-radius: 8px; font-weight: 600; padding: 4px 12px; }
         .status-kritik { background-color: #fce4e4; color: #e74c3c; border-radius: 8px; font-weight: 600; padding: 4px 12px; }
+        
+        /* Tıklanan satır için eflatun efekti */
+        .selected-row { background-color: #f3e8ff !important; border-left: 4px solid #8e44ad; transition: all 0.3s ease; }
+        
+        /* Yeni yorum uyarısı animasyonu */
+        .new-badge {
+            animation: pulse 2s infinite;
+            background-color: #8e44ad;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 9px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
     </style>
 </head>
 <body class="p-4 md:p-8">
+
+    <div id="newAlert" class="hidden max-w-7xl mx-auto mb-6 bg-purple-600 text-white p-4 rounded-2xl flex justify-between items-center shadow-lg animate-bounce">
+        <div class="flex items-center gap-3">
+            <span class="text-2xl">🔔</span>
+            <span class="font-semibold">Dikkat: Sisteme henüz yeni müşteri yorumları düştü!</span>
+        </div>
+        <button onclick="this.parentElement.remove()" class="bg-white/20 hover:bg-white/40 p-1 rounded-full text-xs px-3">Kapat</button>
+    </div>
 
     <div class="max-w-7xl mx-auto">
         <div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
@@ -34,11 +63,8 @@
                 <select id="subeFilter" class="border border-gray-200 rounded-xl px-4 py-2 outline-none focus:ring-2 focus:ring-purple-200 transition-all text-sm font-semibold text-gray-700 bg-white shadow-sm">
                     <option value="Tümü">Tüm Şubeler</option>
                 </select>
-                <button onclick="fetchReviews()" class="flex items-center gap-2 border border-gray-200 rounded-xl px-4 py-2 hover:bg-gray-50 transition-all text-sm text-gray-600 bg-white shadow-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                    </svg>
-                    Yenile
+                <button onclick="fetchReviews()" class="flex items-center gap-2 border border-gray-200 rounded-xl px-4 py-2 hover:bg-gray-50 transition-all text-sm text-gray-600 bg-white shadow-sm text-purple-600 font-bold">
+                    🔄 Yenile
                 </button>
             </div>
         </div>
@@ -59,7 +85,7 @@
                     </tbody>
             </table>
         </div>
-        <p class="mt-4 text-center text-gray-400 text-xs">Royal Pastanesi Internal Feedback System v1.1</p>
+        <p class="mt-4 text-center text-gray-400 text-xs">Royal Pastanesi Internal Feedback System v1.2</p>
     </div>
 
     <script>
@@ -68,35 +94,31 @@
                 const response = await fetch('yorumlar.json?t=' + new Date().getTime());
                 const reviews = await response.json();
                 
-                // Önce filtreyi (yıldızlarla birlikte) güncelle
+                // Üstteki uyarı barını göster/gizle
+                const hasNew = reviews.some(r => r.is_new === true);
+                document.getElementById('newAlert').classList.toggle('hidden', !hasNew);
+
                 updateFilters(reviews);
-                // Sonra tabloyu çiz
                 renderTable(reviews);
             } catch (err) {
                 console.error("Veri yüklenemedi:", err);
             }
         }
 
-        // Şubelerin Ortalama Puanını Hesaplayıp Combobox'a Yazar
         function updateFilters(data) {
             const filter = document.getElementById('subeFilter');
-            const currentSelected = filter.value; // Seçili olanı kaybetmeyelim
-            
+            const currentSelected = filter.value;
             const uniqueSubeler = [...new Set(data.map(item => item.sube_adi))];
             
             filter.innerHTML = '<option value="Tümü">Tüm Şubeler</option>';
-
             uniqueSubeler.forEach(sube => {
                 const subeYorumlari = data.filter(r => r.sube_adi === sube);
                 const ortalama = (subeYorumlari.reduce((sum, r) => sum + r.rating, 0) / subeYorumlari.length).toFixed(1);
-                
                 const option = document.createElement('option');
                 option.value = sube;
-                // Örnek Görünüm: "Konacık Şubesi ⭐ 4.7"
                 option.text = `${sube} ⭐ ${ortalama}`;
                 filter.appendChild(option);
             });
-
             filter.value = currentSelected;
         }
 
@@ -105,40 +127,51 @@
             const filterValue = document.getElementById('subeFilter').value;
             tableBody.innerHTML = '';
 
-            data.forEach(item => {
+            data.forEach((item, index) => {
                 if (filterValue !== "Tümü" && item.sube_adi !== filterValue) return;
 
                 const date = new Date(item.iso_date).toLocaleString('tr-TR');
                 const badgeClass = item.rating >= 4 ? 'status-taze' : 'status-kritik';
                 const badgeText = item.rating >= 4 ? 'MEMNUNİYET' : 'KRİTİK';
                 let stars = '⭐'.repeat(item.rating);
+                
+                // Yeni yorum etiketi
+                const newLabel = item.is_new ? '<span class="new-badge">YENİ</span>' : '';
 
                 tableBody.innerHTML += `
-                    <tr class="hover:bg-purple-50/30 transition-colors">
-                        <td class="px-6 py-5 whitespace-nowrap text-gray-400 text-xs">🕒 ${date}</td>
+                    <tr onclick="toggleRow(this)" class="cursor-pointer hover:bg-gray-50 transition-colors">
+                        <td class="px-6 py-5 whitespace-nowrap text-gray-400 text-xs font-mono">🕒 ${date}</td>
                         <td class="px-6 py-5">
-                            <div class="font-bold text-gray-800">${item.sube_adi}</div>
-                            <div class="text-[11px] text-gray-400">👤 ${item.user.name}</div>
+                            <div class="font-bold text-gray-800 flex items-center">${item.sube_adi} ${newLabel}</div>
+                            <div class="text-[11px] text-gray-400 italic">👤 ${item.user.name}</div>
                         </td>
                         <td class="px-6 py-5">
                             <div class="text-yellow-500 font-bold">${stars}</div>
-                            <div class="text-[10px] text-gray-300">${item.rating} / 5</div>
+                            <div class="text-[10px] text-gray-300 font-bold">${item.rating} / 5</div>
                         </td>
-                        <td class="px-6 py-5 max-w-xs italic text-gray-500 line-clamp-2">
-                            "${item.snippet || 'Mesaj bırakılmadı.'}"
+                        <td class="px-6 py-5 max-w-xs text-gray-500">
+                            <p class="line-clamp-2 leading-relaxed italic">"${item.snippet || 'Mesaj bırakılmadı.'}"</p>
                         </td>
-                        <td class="px-6 py-5 text-center">
-                            <span class="${badgeClass} text-[10px] tracking-tighter">${badgeText}</span>
+                        <td class="px-6 py-5 text-center text-[10px] font-bold tracking-tighter">
+                            <span class="${badgeClass}">${badgeText}</span>
                         </td>
                         <td class="px-6 py-5 text-right font-bold">
-                            <a href="${item.link}" target="_blank" class="text-red-500 hover:text-red-700 text-xs underline">HARİTADA GÖR</a>
+                            <a href="${item.link}" target="_blank" onclick="event.stopPropagation()" class="text-purple-600 hover:text-purple-900 text-xs border-b border-purple-200">İNCELE</a>
                         </td>
                     </tr>
                 `;
             });
         }
 
-        document.getElementById('subeFilter').addEventListener('change', fetchReviews);
+        // Satıra tıklandığında mor renk verme/kaldırma
+        function toggleRow(element) {
+            // Önce diğer seçili satırları temizle (isteğe bağlı, sadece bir tane seçilsin dersen)
+            // document.querySelectorAll('tr').forEach(r => r.classList.remove('selected-row'));
+            
+            element.classList.toggle('selected-row');
+        }
+
+        document.getElementById('subeFilter').addEventListener('change', () => fetchReviews());
         fetchReviews();
     </script>
 </body>
