@@ -1,5 +1,92 @@
 [
   {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWWGRVNVFSMTkwYkY4NFpUbDRVM2xPZVZwblFYYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOkVXdU5QR190bF84ZTl4U3lOeVpnQXc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "a day ago",
+    "iso_date": "2026-04-20T18:40:27Z",
+    "iso_date_of_last_edit": "2026-04-20T18:40:27Z",
+    "images": [
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lER4WYsW4TZU2rM7qYfbQfWYkWCBlh9Ja3s6IM_U7PGoPdOFkQywz1eAtUO6I_OTxZWbDqjyGEoVR8IsMMN9hRGfKO19LsI3L3_DI-WiWa4PqbzLbiDst8t-8Jm5xCGKOZB2DTR_dOvgiCT8"
+    ],
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWWGRVNVFSMTkwYkY4NFpUbDRVM2xPZVZwblFYYxAB",
+    "user": {
+      "name": "Aslı Özveren",
+      "link": "https://www.google.com/maps/contrib/103704359376313305714?hl=en-US",
+      "contributor_id": "103704359376313305714",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJGoFZJVbryFCH_TtZlWJh92JHtdAIo37dCB52h9EpLK1O3eg=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 2,
+      "photos": 2
+    },
+    "snippet": "Efsane her şey ❤️",
+    "extracted_snippet": {
+      "original": "Efsane her şey ❤️",
+      "translated": "Legendary everything ❤️"
+    },
+    "likes": 0,
+    "save_date": "2026-04-21T18:58:33.902Z",
+    "is_new": true
+  },
+  {
+    "sube_adi": "Kumbahçe Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKSFJXZEVRMnAzWVhBd2QwNTRSWFZqVmxwZmNIYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOlJHRWdEQ2p3YXAwd054RXVjVlpfcHc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "3 hours ago",
+    "iso_date": "2026-04-21T15:04:48Z",
+    "iso_date_of_last_edit": "2026-04-21T15:04:48Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKSFJXZEVRMnAzWVhBd2QwNTRSWFZqVmxwZmNIYxAB",
+    "user": {
+      "name": "Muhammet Gelturan",
+      "link": "https://www.google.com/maps/contrib/110971190785839501948?hl=en-US",
+      "contributor_id": "110971190785839501948",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWjQ8xAl6uqR8eYzHmuyjP0ybTbupZrMvN7Yh3LPzYOv0pcE5c=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "Gönderdiğim pastanın aynısını hatta daha iyisini yaptılar ilgilerinden dolayı ayrı teşekkür ederim ziyaret ettiğimde hepsi güler yüzle karşıladılar sıcakkanlı insanlar yardımcı oluyorlar teşekkür ederim",
+    "extracted_snippet": {
+      "original": "Gönderdiğim pastanın aynısını hatta daha iyisini yaptılar ilgilerinden dolayı ayrı teşekkür ederim ziyaret ettiğimde hepsi güler yüzle karşıladılar sıcakkanlı insanlar yardımcı oluyorlar teşekkür ederim",
+      "translated": "They made the same cake I ordered, or even better; I'd like to thank them especially for their attention. When I visited, they all greeted me with smiles; they are warm, friendly, and helpful people. Thank you."
+    },
+    "likes": 0,
+    "save_date": "2026-04-21T18:58:32.863Z",
+    "is_new": true
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wUU9WVm1Zbk5QWjBaVVJWbEZRV0paWWtSV05YYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOnpQOVVmYnNPZ0ZURVlFQWJZYkRWNXc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "5 hours ago",
+    "iso_date": "2026-04-21T13:17:55Z",
+    "iso_date_of_last_edit": "2026-04-21T13:17:55Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wUU9WVm1Zbk5QWjBaVVJWbEZRV0paWWtSV05YYxAB",
+    "user": {
+      "name": "Derya Vural",
+      "link": "https://www.google.com/maps/contrib/113230906648402092345?hl=en-US",
+      "contributor_id": "113230906648402092345",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIkZiVLTwq8Hr5jLbZZfpZElmhwTxCZGmWnSriqtixxJhODNnE=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "Detaylara verilen özen, tazelik ve lezzet… Her siparişimde aynı kusursuz deneyimi yaşatan nadir yerlerden: Royal Pastanesi 🤍",
+    "extracted_snippet": {
+      "original": "Detaylara verilen özen, tazelik ve lezzet… Her siparişimde aynı kusursuz deneyimi yaşatan nadir yerlerden: Royal Pastanesi 🤍",
+      "translated": "Attention to detail, freshness and taste… Royal Patisserie is one of the rare places that provides the same flawless experience with every order 🤍"
+    },
+    "likes": 0,
+    "save_date": "2026-04-21T18:58:30.041Z",
+    "is_new": true
+  },
+  {
     "sube_adi": "Konacık Şubesi",
     "position": 1,
     "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25VMlYwcDJZbGg2ZDNGeE9IRXdRVWhwYjAxb1NFRRAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOnU2V0p2Ylh6d3FxOHEwQUhpb01oSEE%7C%7C?hl=en-US",
@@ -20,7 +107,7 @@
     },
     "likes": 0,
     "save_date": "2026-04-15T19:01:17.630Z",
-    "is_new": true
+    "is_new": false
   },
   {
     "sube_adi": "Royal Fırın Pasta (Bitez)",
