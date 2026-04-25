@@ -1,5 +1,33 @@
 [
   {
+    "sube_adi": "Konacık Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21SV2FXTjNjREpaWVhOU2JuSTRjMmszV2pGSlltYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOmRWaWN3cDJZYXNSbnI4c2k3WjFJYmc%7C%7C?hl=en-US",
+    "rating": 1,
+    "date": "a day ago",
+    "iso_date": "2026-04-24T17:29:38Z",
+    "iso_date_of_last_edit": "2026-04-24T17:29:38Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SV2FXTjNjREpaWVhOU2JuSTRjMmszV2pGSlltYxAB",
+    "user": {
+      "name": "Altuğ sormaz",
+      "link": "https://www.google.com/maps/contrib/112978225607856211487?hl=en-US",
+      "contributor_id": "112978225607856211487",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU_VXQzTlt025BJc5Plo4OaCOvGpHgyAOZh-AiTGANWopezU1k=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 0,
+      "photos": 1
+    },
+    "snippet": "Yaklasık her akşam uğrar alısverışimizi yaparız,bır kolay gelsıne bıle cevap veremek,aldıgımız urunlerı kafamıza atar gibi atmak,bır tesekkuru cok gormek.bunlar bu ısletme ıcın zor seyler degıl,bır tebessım bı hoscakalın demek,sankı ben zorluyorumda alısverıs yapıorum,urunlerın lezzetınden once musterı memnunıyetı dedıgımız olay bence en onemlısı,bı musterıyı elemanda oraya ceker yada iter,daha iyi hızmet vermenız dılegıyle",
+    "extracted_snippet": {
+      "original": "Yaklasık her akşam uğrar alısverışimizi yaparız,bır kolay gelsıne bıle cevap veremek,aldıgımız urunlerı kafamıza atar gibi atmak,bır tesekkuru cok gormek.bunlar bu ısletme ıcın zor seyler degıl,bır tebessım bı hoscakalın demek,sankı ben zorluyorumda alısverıs yapıorum,urunlerın lezzetınden once musterı memnunıyetı dedıgımız olay bence en onemlısı,bı musterıyı elemanda oraya ceker yada iter,daha iyi hızmet vermenız dılegıyle",
+      "translated": "We stop by almost every evening to shop, and yet they can't even respond to a simple \"have a good day,\" they throw the products we bought at our heads as if they're throwing them back, and they begrudge us a simple thank you. These aren't difficult things for this business; a smile, a goodbye, it's as if I'm being forced to shop here. I think customer satisfaction is more important than the taste of the products. A customer is attracted or attracted by the staff. Wishing you better service."
+    },
+    "likes": 0,
+    "save_date": "2026-04-25T18:36:53.056Z",
+    "is_new": true
+  },
+  {
     "sube_adi": "Kumbahçe Şubesi",
     "position": 2,
     "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWWGRVNVFSMTkwYkY4NFpUbDRVM2xPZVZwblFYYxAB!2m1!1s0x0:0x2383407d44305a02!3m1!1s2@1:CAIQACodChtycF9oOkVXdU5QR190bF84ZTl4U3lOeVpnQXc%7C%7C?hl=en-US",
@@ -28,7 +56,7 @@
     },
     "likes": 0,
     "save_date": "2026-04-21T18:58:33.902Z",
-    "is_new": true
+    "is_new": false
   },
   {
     "sube_adi": "Kumbahçe Şubesi",
@@ -56,7 +84,7 @@
     },
     "likes": 0,
     "save_date": "2026-04-21T18:58:32.863Z",
-    "is_new": true
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
@@ -84,7 +112,7 @@
     },
     "likes": 0,
     "save_date": "2026-04-21T18:58:30.041Z",
-    "is_new": true
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
