@@ -1,6 +1,89 @@
 [
   {
     "sube_adi": "Konacık Şubesi",
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaUloxWXhVSGwyTW01eE56bHlWM2gxYVdkR01VRRAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOlZRZ1YxUHl2Mm5xNzlyV3h1aWdGMUE%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "6 hours ago",
+    "iso_date": "2026-05-03T12:17:02Z",
+    "iso_date_of_last_edit": "2026-05-03T12:17:02Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaUloxWXhVSGwyTW01eE56bHlWM2gxYVdkR01VRRAB",
+    "user": {
+      "name": "ibrahim",
+      "link": "https://www.google.com/maps/contrib/115539741655240567179?hl=en-US",
+      "contributor_id": "115539741655240567179",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJfg9MKJYDXbNd27JRNwrBsTqf7g-PAv7Xe5jv0WKxzRNkDgw=s120-c-rp-mo-br100",
+      "reviews": 0,
+      "photos": 0
+    },
+    "snippet": "Hem ürünlerin kalitesi, lezzeti, hem de çalışan nezaketi için harika bir pastane, Aslı Hanım'ın özverisi içinde ayrıca teşekkürler",
+    "extracted_snippet": {
+      "original": "Hem ürünlerin kalitesi, lezzeti, hem de çalışan nezaketi için harika bir pastane, Aslı Hanım'ın özverisi içinde ayrıca teşekkürler",
+      "translated": "A wonderful patisserie, both for the quality and taste of its products, and for the politeness of its staff; special thanks to Ms. Aslı for her dedication."
+    },
+    "likes": 0,
+    "save_date": "2026-05-03T18:43:52.641Z",
+    "is_new": true
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xONE1IQk1MWGRyY1c5Rk5XaENjVlY2WnpKeU1IYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOlN4MHBMLXdrcW9FNWhCcVV6ZzJyMHc%7C%7C?hl=en-US",
+    "rating": 4,
+    "date": "4 hours ago",
+    "iso_date": "2026-05-03T14:06:48Z",
+    "iso_date_of_last_edit": "2026-05-03T14:06:48Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONE1IQk1MWGRyY1c5Rk5XaENjVlY2WnpKeU1IYxAB",
+    "user": {
+      "name": "Esin Taşçı",
+      "link": "https://www.google.com/maps/contrib/102878677041229092626?hl=en-US",
+      "contributor_id": "102878677041229092626",
+      "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXRkAF2Fly_khkLKRVG22A-4jH5NF3LCPjGdI50q-5rUkS1vrI=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 1,
+      "photos": 0
+    },
+    "snippet": "Güzel beğendim",
+    "extracted_snippet": {
+      "original": "Güzel beğendim",
+      "translated": "I liked it."
+    },
+    "likes": 0,
+    "save_date": "2026-05-03T18:43:51.961Z",
+    "is_new": true
+  },
+  {
+    "sube_adi": "Gümbet Şubesi",
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21VNGRGWmxkbGxKT1d0T2NFSktSV1ZJZW5KRFlYYxAB!2m1!1s0x0:0x3ba811719107302!3m1!1s2@1:CAIQACodChtycF9oOmU4dFZldllJOWtOcEJKRWVIenJDYXc%7C%7C?hl=en-US",
+    "rating": 5,
+    "date": "25 minutes ago",
+    "iso_date": "2026-05-03T18:18:06Z",
+    "iso_date_of_last_edit": "2026-05-03T18:18:06Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VNGRGWmxkbGxKT1d0T2NFSktSV1ZJZW5KRFlYYxAB",
+    "user": {
+      "name": "Merve coşkun",
+      "link": "https://www.google.com/maps/contrib/102395823156199522845?hl=en-US",
+      "contributor_id": "102395823156199522845",
+      "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLFlJvi0jy7jNVtQEEL--iZX9G3nieat5gzXHDsYCmu2JAj=s120-c-rp-mo-br100",
+      "local_guide": true,
+      "reviews": 0,
+      "photos": 0
+    },
+    "snippet": "Elinize emeğinize sağlık🙏 tadı ve görüntüsü muhteşemdi her sene tüm özel günlerimizin vazgeçilmezi tabikide sizsiniz  ilginiz alakanız için ayrıca teşekkür ederim",
+    "extracted_snippet": {
+      "original": "Elinize emeğinize sağlık🙏 tadı ve görüntüsü muhteşemdi her sene tüm özel günlerimizin vazgeçilmezi tabikide sizsiniz  ilginiz alakanız için ayrıca teşekkür ederim",
+      "translated": "Thank you so much for your hard work and effort! 🙏 The taste and appearance were amazing. You are our go-to choice for all our special occasions every year. Thank you again for your attention and care."
+    },
+    "likes": 0,
+    "save_date": "2026-05-03T18:43:46.214Z",
+    "is_new": true
+  },
+  {
+    "sube_adi": "Konacık Şubesi",
     "position": 1,
     "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkSGRsTXlWbVpFTTFnd1RrdDBTMHQ2WW5sdlVXYxAB!2m1!1s0x0:0x30a13f47b5fa2716!3m1!1s2@1:CAIQACodChtycF9oOldHdlMyVmZEM1gwTkt0S0t6YnlvUWc%7C%7C?hl=en-US",
     "rating": 5,
@@ -19,7 +102,7 @@
     },
     "likes": 0,
     "save_date": "2026-04-27T19:04:29.498Z",
-    "is_new": true
+    "is_new": false
   },
   {
     "sube_adi": "Konacık Şubesi",
