@@ -1,9 +1,9 @@
 name: Royal Feedback Bot
 
-on:
-  schedule:
-    - cron: '0 18 */2 * *' # 2 günde 1, akşam 21:00 (TSİ)
-  workflow_dispatch: # Manuel çalıştırma butonu
+ # on:
+ # schedule:
+ #  - cron: '0 18 */2 * *' # 2 günde 1, akşam 21:00 (TSİ)
+ # workflow_dispatch: # Manuel çalıştırma butonu
 
 permissions:
   contents: write # Dosyayı güncelleyip geri kaydedebilmesi için ŞART
